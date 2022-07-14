@@ -4,28 +4,38 @@ Principles
 
 Maturity
 ========
-We want to strive to a fully mature RESTful services as defined by the Richardson maturity model (<link>). 
-Important here is that we not only adhere to the REST principals (<link>), but also implement Hypertext As 
+The WCT APIs are fully RESTful webservices as defined by the Richardson maturity model (https://restfulapi.net/richardson-maturity-model/).
+Important here is that the APIs not only adhere to the REST principals (https://restfulapi.net/), but also implement Hypertext As 
 The Engine Of Application State (HATEOAS).
-
-Request
-=======
-All REST API calls make use of HTTPS.
- 
-The format of exchanged data is JSON. This applies to both requests and responses.
-
 
 Versioning
 ==========
-There are a number of ways to implement versioning. The easiest is using a version specifier in the URI.
-The most complex way is using content negation <links>. As the API’s will be primarily used in the WCT 
-project itself it is advised to use the most simple way possible. So using version specifier (e.g. number) in the URI.
- 
+For the WCT APIs the version number of the API is part of the URI.
+
+If an API is deprecated and no longer supported the HTTP response code '501: Not Implemented' will be returned. The body of the 
+reposnse will be empty.
+
 Authentication
 ==============
-To use an REST API the user must be authenticated. The proposal is to authenticate once and return a token 
-that can then be used in all REST API calls. 
+To use an API the user must be authenticated. This is done by getting a session token from WCT via the authentication API. This
+token must be provided with each request to an API. This is done via the adding the authorization in the request header as follows:
+Authorization: Bearer <token>
 
+<token> is the string of characters (token) returned from the authentication API.
+
+Request
+=======
+All API requests make use of HTTPS, HTTP is not supported.
+ 
+The format of exchanged data is by default JSON. This applies to both requests and responses.
+
+Response
+========
+All API responses return a valid HTTP response code (https://en.wikipedia.org/wiki/List_of_HTTP_status_codes). Only if an API requests
+results in a correct and valid response '200 OK' is returned. In all other cases the appropriate HTTP error code is returned.
+
+The format of exchanged data is by default JSON. This applies to both requests and responses.
+ 
 Data format
 ===========
-Although all kind of data formats can be supported it is advised to keep this simple and choose one, e.g. JSON (preferred) or XML.
+The format of exchanged data is by default JSON. This applies to both requests and responses. No other format is supported.
