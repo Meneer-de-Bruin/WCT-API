@@ -9,16 +9,18 @@ If the user cannot be authenticated an error is returned.
 
 Request
 -------
-POST
-username	String - Required.
-password	String - Required.
+* -POST
+* -username	
+  -String - Required.
+* -password	
+  -String - Required.
 
 Response
 --------
-200: OK
-token	
+* -200: OK
+* -token	
 
 Errors
 ------
-403: Not authorized with given username and password
-405: Invalid input
+* -403: Not authorized with given username and password
+* -405: Invalid input
