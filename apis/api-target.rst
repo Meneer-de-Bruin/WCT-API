@@ -26,6 +26,7 @@ limit  Number Optional
 **filter**
 
 Name of field upon which the result set must be filtered. Only filterable fields maybe given, others are ignored. Filterable fields are:
+
 * targetId [exact match only]
 * name [contains text]
 * seed [contains text]
@@ -50,12 +51,14 @@ The state of a target is an integer with the following values:
   5   Approved
   6   Cancelled
   7   Completed
+===== =======================
   
 **sortBy**
 
 Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
 
 Only sortable fields maybe given, others are ignored. Sortable fields are:
+
 * name (default)
 * creationDate
 
