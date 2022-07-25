@@ -3,7 +3,7 @@ API Overview
 
 .. toctree::
    :maxdepth: 1
-   :caption: Overview:
+   :caption: API Overview
 
    api-authentication
    api-target

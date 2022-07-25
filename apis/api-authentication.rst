@@ -25,9 +25,11 @@ password String Required
 ======== ====== ========
 
 **username**
+
 Username of to be authenticated user in WCT.
 
 **password**
+
 Password of to be authenticated user in WCT.
 
 Response
