@@ -15,13 +15,20 @@ Version
 
 Request
 -------
-https://<WCT_base>/api/1.0.0/create_token
+https://<WCT_base>/api/1.0.0/token
 
 ======== ====== ========
-POST
+**POST**
+------------------------
 username String Required
 password String Required
 ======== ====== ========
+
+**username**
+Username of to be authenticated user in WCT.
+
+**password**
+Password of to be authenticated user in WCT.
 
 Response
 --------
@@ -35,6 +42,8 @@ token String Optional
 
 Errors
 ------
+If any error is raised no token is returned.
+
 ==== ===============================================
 403: Not authorized with given username and password
 405: Invalid input
