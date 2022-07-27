@@ -15,7 +15,7 @@ Version
 
 Request
 -------
-https://&lt;WCT_base&gt;/api/v1/token
+https://%3CWCT_base%3E/api/v1/token
 
 ======== ====== ========
 **POST**
@@ -46,7 +46,7 @@ Errors
 ------
 If any error is raised no token is returned.
 
-==== ===============================================
-403: Not authorized with given username and password
-405: Invalid input
-==== ===============================================
+=== ===============================================
+403 Not authorized with given username and password
+405 Invalid input
+=== ===============================================
