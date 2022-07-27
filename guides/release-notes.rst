@@ -11,4 +11,4 @@ Versions
 ========
 1.0.0
 -----
-Released <month abbr> <year>, v1.0.0 is the first release of the APIs for WCT.
+Released <month abbr> <year>, version 1.0.0 is the first release of the APIs for WCT.

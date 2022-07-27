@@ -12,7 +12,7 @@ Version
 
 Request
 -------
-https://<WCT_base>/api/1.0.0/targets
+https://<WCT_base>/api/v1/targets
 
 ====== ====== ========
 **GET**
@@ -42,7 +42,7 @@ With each field (key) a value must be given which is used to filter. The filter 
 
 The state of a target is an integer with the following values:
 ===== =======================
-**#** **Human readable text**
+**states** **Human readable text**
 ----- -----------------------
   1   Pending
   2   Reinstated
