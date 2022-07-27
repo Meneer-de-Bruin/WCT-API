@@ -5,6 +5,9 @@ to use the string 'latest' to call upon the latest version of the api.
 
 If an api is deprecated and no longer supported then the error 404 'Not Found – the requested resource does not exist' is returned. 
 
+APIs
+====
+
 .. toctree::
    :maxdepth: 1
 

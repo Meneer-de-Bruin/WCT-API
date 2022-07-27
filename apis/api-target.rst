@@ -41,17 +41,17 @@ Multiple filter fields may be given, but each field only once. If a filter field
 With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
 
 The state of a target is an integer with the following values:
-========= =======================
+===== ===================
 **state** **Human readable text**
---------- -----------------------
-1         Pending
-2         Reinstated
-3         Nominated
-4         Rejected
-5         Approved
-6         Cancelled
-7         Completed
-========= =======================
+----- -------------------
+1     Pending
+2     Reinstated
+3     Nominated
+4     Rejected
+5     Approved
+6     Cancelled
+7     Completed
+===== ===================
   
 **sortBy**
 
