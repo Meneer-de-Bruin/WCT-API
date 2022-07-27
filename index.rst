@@ -10,7 +10,8 @@ Web Curator Tool API Documentation
    guides/release-notes
    
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: API Documentation
    
    apis/api-overview
+   

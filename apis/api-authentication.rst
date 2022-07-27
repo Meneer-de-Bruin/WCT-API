@@ -15,7 +15,7 @@ Version
 
 Request
 -------
-https://%3CWCT_base%3E/api/v1/token
+https://--WCT_base--/api/v1/token
 
 ======== ====== ========
 **POST**
