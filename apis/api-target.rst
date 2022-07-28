@@ -43,6 +43,8 @@ With each field (key) a value must be given which is used to filter. The filter 
 The state of a target is an integer with the following values:
 
 === ===================
+**Sta** **Value**
+--- -------------------
  1  Pending
  2  Reinstated
  3  Nominated
@@ -106,6 +108,7 @@ targets List   Optional
 This is a list of found targets. It could be that no targets are returned.
 
 The following information is returned per found target:
+
 ======= ====== ========
 **Body**
 -----------------------
