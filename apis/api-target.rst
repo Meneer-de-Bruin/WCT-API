@@ -42,13 +42,13 @@ With each field (key) a value must be given which is used to filter. The filter 
 
 The state of a target is an integer with the following values:
 === ===================
-1     Pending
-2     Reinstated
-3     Nominated
-4     Rejected
-5     Approved
-6     Cancelled
-7     Completed
+abc Pending
+bcd Reinstated
+c   Nominated
+d   Rejected
+e   Approved
+f   Cancelled
+g   Completed
 === ===================
   
 **sortBy**
