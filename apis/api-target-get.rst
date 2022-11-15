@@ -1,7 +1,4 @@
-==========
-API Target
-==========
-
+======================
 Retrieve Targets (GET)
 ======================
 Returns all targets with a subset of the available information based upon given filter and sorting.
@@ -112,9 +109,11 @@ targets    List   Optional
 ========== ====== ========
 
 **amount**
+
 Number of total targets in the result.  
 
 **targets**
+
 This is a list of found targets. It could be that no targets are returned.
 
 The following information is returned per found target:
@@ -132,19 +131,23 @@ seeds		 List   Required
 ============ ====== ========
 
 **creationDate**
+
 This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
 
 **Seeds**
+
 A list of seeds containing the following information:
 
-------------------------
-**Seeds**
+
 ======= ======= ========
+**Seeds**
+------------------------
 seed	URL	    Required
 primary Boolean	Required
 ======= ======= ========
 
 **primary**
+
 This indicates if a seed is the primary seed, or not. There can only be one primary seed.
 
 Errors
@@ -152,6 +155,7 @@ Errors
 If any error is raised no output is returned.
 
 === ===============================================
+400 Unsupported or malformed sort spec <sortBy field>
 403 Not authorized with given token
 405 Invalid input
 === ===============================================
