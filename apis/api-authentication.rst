@@ -1,6 +1,6 @@
-==================
-API Authentication
-==================
+==============
+Authentication
+==============
 
 Create token (POST)
 ===================
