@@ -34,11 +34,13 @@ Name of field upon which the result set must be filtered. Only filterable fields
 * userId [exact match only]
 * description [contains text]
 * groupName [contains text]
+* nonDispalyOnly [Boolean]
 * states [List of integers, exact match only]
 
 Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
 
-With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
+With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains 
+the given value in the given field. All given characters are used, there are no wild cards.
 
 The state of a target is an integer with the following values:
 
@@ -53,10 +55,13 @@ The state of a target is an integer with the following values:
   6       Cancelled
   7       Completed
 ========= ==========
+
+The list of possible status values can be retrieved with: <API TODO>.
   
 **sortBy**
 
-Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
+Name of field upon which the result set must be sorted. The field name must be followed by an 
+indication if the sorting must be ascending (asc) or descending (desc).
 
 Only sortable fields maybe given, others are ignored. Sortable fields are:
 
@@ -66,7 +71,7 @@ Only sortable fields maybe given, others are ignored. Sortable fields are:
 Only one sort field may be given as input. If multiple sort fields are given then this will result in an error.
 
 Example:
-Sortby=Name,asc
+sortBy=Name,asc
 
 **offset**
 
@@ -75,11 +80,12 @@ Default: 0
 Minimum: 0
 
 The results page shown is equal to:
-TRUNC(**offset** / **limit**) + 1
+TRUNC(*offset* / *limit*) + 1
 
-So the if the **offset** value is not a multiple of the **limit** value then the results page shown is the page upon which the offset row is present.
+So the if the *offset* value is not a multiple of the *limit* value then the results page shown is the page 
+upon which the offset row is present. E.g. If *limit* is 10 and *offset* is 19 then the page shown is TRUNC(19/10) + 1 = 2.
 
-E.g. If **limit** is 10 and **offset** is 19 then the page shown is TRUNC(19/10) + 1 = 2.
+Issue: At this moment in time (2023) *offset* **must** be a multiple of *limit*
 
 **limit**
 
@@ -94,15 +100,19 @@ Response
 --------
 200: OK
 
-======= ====== ========
+==========	======	========
 **Body**
------------------------
-filter  String Required
-sortBy  String Required
-offset  Number Required
-limit   Number Required
-targets List   Optional
-======= ====== ========
+----------------------------
+filter  	String 	Required
+sortBy  	String 	Required
+offset  	Number 	Required
+limit		Number 	Required
+amount 		Number	Required
+targets 	List   	Optional
+==========	======	========
+
+**amount**
+Number of total targets in the result.  
 
 **targets**
 This is a list of found targets. It could be that no targets are returned.
