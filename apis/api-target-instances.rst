@@ -1,10 +1,10 @@
-======
-Target
-======
+================
+Target Instances
+================
 
-Retrieve Targets (GET)
-======================
-Returns all targets with a subset of the available information based upon given filter and sorting.
+Retrieve Target Instances (GET)
+===============================
+<TODO>
 
 Version
 -------
@@ -12,7 +12,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target
+https://--WCT_base--/api/v1/targetinstance
 
 ====== ====== ========
 **GET**
@@ -173,7 +173,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target
+https://--WCT_base--/api/v1/targets
 
 ============ ====== ========
 **POST**
@@ -239,7 +239,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target/<targetID>
+https://--WCT_base--/api/v1/targets/<targetID>
 
 ============ ====== ========
 **GET**
@@ -281,7 +281,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target/<targetID>
+https://--WCT_base--/api/v1/targets/<targetID>
 
 ============ ====== ========
 **PUT**
@@ -323,7 +323,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target/<targetID>
+https://--WCT_base--/api/v1/targets/<targetID>
 
 ============ ====== ========
 **DELETE**
