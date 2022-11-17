@@ -7,7 +7,13 @@ Create token (POST)
 Takes username and password as input and returns a token that is valid until <x> minutes of inactivity. The time 
 of inactivity (<x>) is configurable in WCT.
 
-If the user cannot be authenticated an error is returned.
+
+Each call to a WCT API (except for authentication for obvious reasons) must contain a valid token. The token must 
+be added to the HTTP header of each call:
+
+Authorization: Bearer <token> 
+
+If the user cannot be authenticated based upon the given username and password an error is returned.
 
 Version
 -------
@@ -50,16 +56,3 @@ If any error is raised no token is returned.
 403 Not authorized with given username and password
 405 Invalid input
 === ===============================================
-
-Use
----
-WCT makes use of JSON Web Token [JWT_]. 
-
-For this each call to a WCT API (except for authentication for obvious reasons) must contain a valid token. Each given token is 
-invalidated after 30 minutes of inactivity. Each call is authenticated based upon the given token.
-
-The token must be added to the HTTP header of each call:
-Authorization: Bearer <token> 
-
-
-.. _JWT: https://datatracker.ietf.org/doc/html/rfc7519
