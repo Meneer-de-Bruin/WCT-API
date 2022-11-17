@@ -85,7 +85,7 @@ TRUNC(*offset* / *limit*) + 1
 So the if the *offset* value is not a multiple of the *limit* value then the results page shown is the page 
 upon which the offset row is present. E.g. If *limit* is 10 and *offset* is 19 then the page shown is TRUNC(19/10) + 1 = 2.
 
-Issue: At this moment in time (2023) *offset* **must** be a multiple of *limit*
+Issue: At this moment in time (11-2022) *offset* **must** be a multiple of *limit*
 
 **limit**
 
