@@ -1,5 +1,5 @@
-Retrieve Target (GET)
-=====================
+Update Target (PUT)
+===================
 <TODO>
 
 Version
@@ -11,7 +11,7 @@ Request
 https://--WCT_base--/api/v1/target/<targetID>
 
 ============ ====== ========
-**GET**
+**PUT**
 ---------------------------- 
 ============ ====== ========
 
