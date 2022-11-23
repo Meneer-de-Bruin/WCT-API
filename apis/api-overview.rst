@@ -8,8 +8,19 @@ If an api is deprecated and no longer supported then the error 404 'Not Found â€
 APIs v1
 =======
 
+==============
+Authentication
+==============
 .. toctree::
    :maxdepth: 1
 
-   api-authentication
-   api-target
+   api-authentication_POST
+   
+======
+Target
+======
+.. toctree::
+   :maxdepth: 1
+
+   api-target_GET
+   api-target_POST
