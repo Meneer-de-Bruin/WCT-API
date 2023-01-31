@@ -18,6 +18,12 @@ Request
 -------
 https://--WCT_base--/api/v1/token
 
+Header
+------
+There are no specific header fields for this API.
+
+Body
+----
 ======== ====== ========
 **POST**
 ------------------------

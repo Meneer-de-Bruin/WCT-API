@@ -10,6 +10,12 @@ Request
 -------
 https://--WCT_base--/api/v1/target/<targetID>
 
+Header
+------
+Authorization: Bearer <token>
+
+Body
+----
 ============ ====== ========
 **GET**
 ---------------------------- 

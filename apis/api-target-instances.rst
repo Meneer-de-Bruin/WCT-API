@@ -14,6 +14,12 @@ Request
 -------
 https://--WCT_base--/api/v1/targetinstance
 
+Header
+------
+Authorization: Bearer <token>
+
+Body
+----
 ====== ====== ========
 **GET**
 ----------------------
