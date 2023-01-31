@@ -1,5 +1,3 @@
-
-
 Create token (POST)
 ===================
 Takes username and password as input and returns a token that is valid until <x> minutes of inactivity. The time 
@@ -49,8 +47,8 @@ Errors
 ------
 If any error is raised no token is returned.
 
-=== ===============================================
-400
-403 Not authorized with given username and password
-405 Method not allowed
-=== ===============================================
+=== ===========================================================================
+400 Bad Request, if username and/or password is not given.
+403 Not authorized, with given username and password.
+405 Method not allowed, if anything other then POST is used.
+=== ===========================================================================
