@@ -2,7 +2,7 @@ Delete Target (DELETE)
 ======================
 Deletes a specific target. This is only possible if there are no attached target instances. 
 
-If one wishes to set the target to 'Rejected' then one must use the update target API :doc:`api-target_PUT`
+If one wishes to set the target to 'Rejected' then one must use the API :doc:`api-target_PUT`
 
 Version
 -------
@@ -15,6 +15,8 @@ https://--WCT_base--/api/v1/target/<targetID>
 Header
 ------
 Authorization: Bearer <token>
+
+To get a token the user must login via the API :doc:`api-authentication_POST`.
 
 Body
 ----
