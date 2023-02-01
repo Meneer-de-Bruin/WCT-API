@@ -2,7 +2,7 @@ Delete Target (DELETE)
 ======================
 Deletes a specific target. This is only possible if there are no attached target instances. 
 
-If one wishes to set the target to 'Rejected' then one must use the update target API :doc:`TEST<api-target_PUT>`
+If one wishes to set the target to 'Rejected' then one must use the update target API :doc:`/api-target_PUT`
 
 Version
 -------
