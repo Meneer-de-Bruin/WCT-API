@@ -15,6 +15,7 @@ Authentication
    :maxdepth: 1
 
    api-authentication_POST
+   api-authentication_DELETE
    
 ======
 Target

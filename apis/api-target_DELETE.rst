@@ -34,10 +34,10 @@ targetId 	 Number Required
 
 Errors
 ------
-If any error is raised no output is returned.
+If any error is raised no output is returned. Nor is the target removed.
 
-=== ===============================================
+=== ==========================================================================
 400 Bad request, if non-existing targetID is given.
 403 Not authorized, with given token.
 405 Method not allowed, if anything other then GET, POST, PUT, DELETE is used.
-=== ===============================================
+=== ==========================================================================
