@@ -1,6 +1,6 @@
 Retrieve Target (GET)
 =====================
-<TODO>
+Returns all information for a specific target.
 
 Version
 -------
@@ -18,17 +18,14 @@ To get a token the user must login via the API :doc:`api-authentication_POST`.
 
 Body
 ----
-============ ====== ========
-**GET**
----------------------------- 
-============ ====== ========
+The body of the request is empty. No additional information is required.
 
 Response
 --------
 200: OK
 
 ============ ====== ========
-**Body**
+**Body** <TODO>
 ----------------------------
 targetId 	 Number Required
 creationDate Date 	Required
@@ -43,7 +40,8 @@ Errors
 ------
 If any error is raised no output is returned.
 
-=== ===============================================
-403 Not authorized with given token
-405 Invalid input
-=== ===============================================
+=== ==========================================================================
+400 Bad request, if non-existing targetID is given.
+403 Not authorized, with given token.
+405 Method not allowed, if anything other then GET, POST, PUT, DELETE is used.
+=== ==========================================================================

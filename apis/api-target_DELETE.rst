@@ -20,7 +20,7 @@ To get a token the user must login via the API :doc:`api-authentication_POST`.
 
 Body
 ----
-The body of the request is empty. No additional information is needed for a delete.
+The body of the request is empty. No additional information is required.
 
 Response
 --------

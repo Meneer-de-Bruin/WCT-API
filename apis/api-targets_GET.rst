@@ -161,8 +161,8 @@ Errors
 ------
 If any error is raised no output is returned.
 
-=== ===============================================
+=== ========================================================================================
 400 Bad Request, including reason why e.g. Unsupported or malformed sort spec <sortBy field>
 403 Not authorized, with given token
 405 Method not allowed, if anything other then GET is used.
-=== ===============================================
+=== =========================================================================================
