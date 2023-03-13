@@ -7,9 +7,6 @@ chronological order, with the most recent version first. While the *API overview
 accurate for the current release, the *Release Notes* can give some idea of
 how things have changed since the last major release.
 
-|version|
-|release|
-
 Versions
 ========
 1.0.0
