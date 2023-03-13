@@ -18,7 +18,7 @@ Header
 
 Body
 ----
-.. include:: descriptions/desc-request-body-empty
+.. include:: descriptions/desc-request-body-empty.rst
 
 Response
 --------

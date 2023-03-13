@@ -52,6 +52,13 @@ access       List    Required
 
 .. include:: descriptions/desc-seeds.rst
 
+| **profile**
+| **schedule**
+| **annotations**
+| **description**
+| **groups**
+| **access**
+
 Errors
 ------
 If any error is raised no output is returned.
