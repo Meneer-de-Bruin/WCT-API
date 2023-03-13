@@ -51,4 +51,3 @@ If any error is the token given is not invalidated.
 405 Method not allowed, if anything other then POST or DELETE is used.
 === ==================================================================
 
-.. |br| raw:: html <br/>

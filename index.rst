@@ -1,3 +1,5 @@
+.. |br| raw:: html <br/>
+
 ==================================
 Web Curator Tool API Documentation
 ==================================
