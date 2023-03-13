@@ -12,7 +12,7 @@ Version
 
 Request
 -------
-**https://--WCT_base--/api/v1/token/<token>**
+`https://--WCT_base--/api/v1/token/{token} <https://--WCT_base--/api/v1/token/{token}>`_
 
 **token**
 
