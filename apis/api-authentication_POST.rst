@@ -16,7 +16,7 @@ Version
 
 Request
 -------
-**https://--WCT_base--/api/v1/token**
+`https://--WCT_base--/api/v1/token <>`
 
 Header
 ------
@@ -31,13 +31,11 @@ username String Required
 password String Required
 ======== ====== ========
 
-**username**
+| **username**
+| Username of to be authenticated user in WCT.
 
-Username of to be authenticated user in WCT.
-
-**password**
-
-Password of to be authenticated user in WCT.
+| **password**
+| Password of to be authenticated user in WCT.
 
 Response
 --------
@@ -46,7 +44,7 @@ Response
 ===== ====== ========
 **Body**
 ---------------------
-token String Optional
+token String Required
 ===== ====== ========
 
 Errors

@@ -25,14 +25,6 @@ Body
 ----
 The body of the request is empty. No additional information is required.
 
-**username**
-
-Username of to be authenticated user in WCT.
-
-**password**
-
-Password of to be authenticated user in WCT.
-
 Response
 --------
 200: OK
@@ -50,4 +42,3 @@ If any error is the token given is not invalidated.
 403 Not authorized, with given username and password.
 405 Method not allowed, if anything other then POST or DELETE is used.
 === ==================================================================
-
