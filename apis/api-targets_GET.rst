@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target
+**https://--WCT_base--/api/v1/target**
 
 Header
 ------
@@ -128,7 +128,7 @@ The following information is returned per found target:
 ============ ====== ========
 **Body**
 ----------------------------
-targetId 	 Number Required
+target-id 	 Number Required
 creationDate Date 	Required 
 name		 Text	Required
 agency		 Text	Required

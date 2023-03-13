@@ -10,7 +10,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target/<targetID>
+**https://--WCT_base--/api/v1/target/<target-id>**
 
 Header
 ------
@@ -29,7 +29,7 @@ Response
 ============ ====== ========
 **Body**
 ----------------------------
-targetId 	 Number Required
+target-id 	 Number Required
 ============ ====== ========
 
 Errors

@@ -12,7 +12,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/token/<token>
+**https://--WCT_base--/api/v1/token/<token>**
 
 **token**
 
@@ -24,12 +24,7 @@ There are no specific header fields for this API.
 
 Body
 ----
-======== ====== ========
-**DELETE**
-------------------------
-username String Required
-password String Required
-======== ====== ========
+The body of the request is empty. No additional information is required.
 
 **username**
 
