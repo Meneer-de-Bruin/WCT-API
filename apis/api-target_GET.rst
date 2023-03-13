@@ -66,7 +66,7 @@ access       List    Required
   7       Completed
 ========= ==========
 
-The list of possible state values for targets can be retrieved with: :doc:`api-target_states_GET`.
+The list of possible state values for targets can be retrieved with API :doc:`api-target_states_GET`.
 
 | **seeds**
 | A list of seeds containing the following information:

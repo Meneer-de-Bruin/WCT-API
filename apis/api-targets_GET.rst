@@ -58,7 +58,7 @@ limit  Number Optional
   7       Completed
 ========= ==========
 
-The list of possible state values for targets can be retrieved with: :doc:`api-target_states_GET`.
+The list of possible state values for targets can be retrieved with API :doc:`api-target_states_GET`.
   
 | **sortBy**
 | Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
