@@ -67,9 +67,7 @@ The list of possible status values can be retrieved with: <API TODO>.
 | * name (default)
 | * creationDate
 
-| Only one sort field may be given as input. If multiple sort fields are given then this will result in an error. 
-| Example:
-| sortBy=Name,asc
+Only one sort field may be given as input. If multiple sort fields are given then this will result in an error. Example: sortBy=Name,asc
 
 | **offset**
 | Specifies the number of rows in the result set to skip before limiting starts. 
@@ -81,7 +79,7 @@ The list of possible status values can be retrieved with: <API TODO>.
  
 So the if the *offset* value is not a multiple of the *limit* value then the results page shown is the page upon which the offset row is present. E.g. If *limit* is 10 and *offset* is 19 then the page shown is TRUNC(19/10) + 1 = 2.
 
-Issue: At this moment in time (11-2022) *offset* **must** be a multiple of *limit*
+Issue: At this point in time *offset* **must** be a multiple of *limit*
 
 | **limit**
 | Number of records returned from the offset.
@@ -89,7 +87,7 @@ Issue: At this moment in time (11-2022) *offset* **must** be a multiple of *limi
 | Minimum: 10
 | Maximum: 100
  
-This is the amount of rows shown on a results page.
+This is the maximum amount of rows shown on a results page.
 
 Response
 --------
@@ -117,7 +115,7 @@ The following information is returned per found target:
 ============ ====== ========
 **Body**
 ----------------------------
-target-id 	 Number Required
+target-id    Number Required
 creationDate Date 	Required 
 name		 Text	Required
 agency		 Text	Required

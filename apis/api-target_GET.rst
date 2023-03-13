@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-**https://--WCT_base--/api/v1/target/<target-id>**
+`https://--WCT_base--/api/v1/target/{target-id}  <https://--WCT_base--/api/v1/target/{target-id}>`_
 
 Header
 ------
@@ -25,16 +25,15 @@ Response
 200: OK
 
 ============ ====== ========
-**Body** <TODO>
+**Body**
 ----------------------------
 target-id 	 Number Required
 creationDate Date 	Required
 ...          ...    ...
 ============ ====== ========
 
-**creationDate**
-
-This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
+| **creationDate**
+| This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
 
 Errors
 ------

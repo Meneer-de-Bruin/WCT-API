@@ -1,5 +1,5 @@
 Delete token (DELETE)
-===================
+=====================
 Takes username, password and token as input and invalidates the specified token. This essentially menas the user logs out.
 
 If the user cannot be authenticated based upon the given username and password an error is returned. 
