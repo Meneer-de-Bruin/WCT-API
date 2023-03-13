@@ -50,3 +50,5 @@ If any error is the token given is not invalidated.
 403 Not authorized, with given username and password.
 405 Method not allowed, if anything other then POST or DELETE is used.
 === ==================================================================
+
+.. |br| raw:: html <br/>
