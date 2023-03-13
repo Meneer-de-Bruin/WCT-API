@@ -27,8 +27,8 @@ Response
 ============ ====== ========
 **Body**
 ----------------------------
-target-id 	 Number Required
-creationDate Date 	Required
+target-id    Number Required
+creationDate Date   Required
 ...          ...    ...
 ============ ====== ========
 

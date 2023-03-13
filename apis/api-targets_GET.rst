@@ -116,12 +116,12 @@ The following information is returned per found target:
 **Body**
 ----------------------------
 target-id    Number Required
-creationDate Date 	Required 
-name		 Text	Required
-agency		 Text	Required
-owner		 Text	Required
-status		 Number Required
-seeds		 List   Required
+creationDate Date   Required 
+name         Text   Required
+agency       Text   Required
+owner        Text   Required
+status       Number Required
+seeds        List   Required
 ============ ====== ========
 
 | **creationDate**
