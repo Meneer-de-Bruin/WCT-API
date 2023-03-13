@@ -8,13 +8,11 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target/{target-id}  <https://--WCT_base--/api/v1/target/{target-id}>`_
+`https://--WCT_base--/api/v1/target/{target-id}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
 
 Header
 ------
-Authorization: Bearer <token>
-
-To get a token the user must login via the API :doc:`api-authentication_PUT`.
+.. include:: descriptions/desc-header-authentication.rst
 
 Body
 ----
@@ -48,30 +46,9 @@ groups       List    Optional
 access       List    Required
 ============ ======= ========
 
-| **creationDate**
-| This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
-
+.. include:: descriptions/desc-creationDate.rst
 .. include:: descriptions/desc-state_target.rst
-
-| **seeds**
-| A list of seeds containing the following information:
-
-======= ======= ========
-**seeds**
-------------------------
-seed	URL	    Required
-primary Boolean	Required
-======= ======= ========
-
-| **primary**
-| This indicates if a seed is the primary seed, or not. There can only be one primary seed.
-
-| **profile**
-| **schedule**
-| **annotations**
-| **description**
-| **groups**
-| **access**
+.. include:: descriptions/desc-seeds.rst
 
 Errors
 ------
