@@ -23,7 +23,7 @@ There are no specific header fields for this API.
 
 Body
 ----
-The body of the request is empty. No additional information is required.
+.. include:: descriptions/desc-request-body-empty
 
 Response
 --------
@@ -31,7 +31,7 @@ Response
 
 **Body**
 --------
-The body of the response is empty.
+.. include:: descriptions/desc-response-body-empty
 
 Errors
 ------

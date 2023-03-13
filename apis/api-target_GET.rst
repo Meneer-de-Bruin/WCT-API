@@ -16,7 +16,7 @@ Header
 
 Body
 ----
-The body of the request is empty. No additional information is required.
+.. include:: descriptions/desc-request-body-empty
 
 Response
 --------

@@ -14,13 +14,11 @@ Request
 
 Header
 ------
-Authorization: Bearer <token>
-
-To get a token the user must login via the API :doc:`api-authentication_POST`.
+.. include:: descriptions/desc-header-authentication.rst
 
 Body
 ----
-The body of the request is empty. No additional information is required.
+.. include:: descriptions/desc-request-body-empty
 
 Response
 --------

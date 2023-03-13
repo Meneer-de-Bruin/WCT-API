@@ -12,9 +12,7 @@ Request
 
 Header
 ------
-Authorization: Bearer <token>
-
-To get a token the user must login via the API :doc:`api-authentication_POST`.
+.. include:: descriptions/desc-header-authentication.rst
 
 Body
 ----
@@ -44,21 +42,7 @@ limit  Number Optional
 |
 | With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
 | 
-| The state of a target is an integer with the following values:
-
-========= ==========
-**State** **Value**
---------- ----------
-  1       Pending
-  2       Reinstated
-  3       Nominated
-  4       Rejected
-  5       Approved
-  6       Cancelled
-  7       Completed
-========= ==========
-
-The list of possible state values for targets can be retrieved with API :doc:`api-target_states_GET`.
+.. include:: descriptions/desc-state_target.rst
   
 | **sortBy**
 | Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
@@ -69,25 +53,8 @@ The list of possible state values for targets can be retrieved with API :doc:`ap
 
 Only one sort field may be given as input. If multiple sort fields are given then this will result in an error. Example: sortBy=Name,asc
 
-| **offset**
-| Specifies the number of rows in the result set to skip before limiting starts. 
-| Default: 0
-| Minimum: 0
-
-| The results page shown is equal to:
-| TRUNC(*offset* / *limit*) + 1
- 
-So the if the *offset* value is not a multiple of the *limit* value then the results page shown is the page upon which the offset row is present. E.g. If *limit* is 10 and *offset* is 19 then the page shown is TRUNC(19/10) + 1 = 2.
-
-Issue: At this point in time *offset* **must** be a multiple of *limit*
-
-| **limit**
-| Number of records returned from the offset.
-| Default: 10
-| Minimum: 10
-| Maximum: 100
- 
-This is the maximum amount of rows shown on a results page.
+.. include:: descriptions/desc-request-offset.rst
+.. include:: descriptions/desc-request-limit.rst
 
 Response
 --------
@@ -124,21 +91,9 @@ state        Number Required
 seeds        List   Required
 ============ ====== ========
 
-| **creationDate**
-| This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
-
-| **seeds**
-| A list of seeds containing the following information:
-
-======= ======= ========
-**seeds**
-------------------------
-seed	URL	    Required
-primary Boolean	Required
-======= ======= ========
-
-| **primary**
-| This indicates if a seed is the primary seed, or not. There can only be one primary seed.
+.. include:: descriptions/desc-creationDate.rst
+.. include:: descriptions/desc-state_target.rst
+.. include:: descriptions/desc-seeds.rst
 
 Errors
 ------
