@@ -15,7 +15,6 @@ Request
 `https://--WCT_base--/api/v1/token/{token} <https://--WCT_base--/api/v1/token/{token}>`_
 
 **token**
-
 Token is given upon a succesful login via the API :doc:`api-authentication_POST`.
 
 Header
