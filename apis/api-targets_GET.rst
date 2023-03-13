@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-**https://--WCT_base--/api/v1/target**
+`https://--WCT_base--/api/v1/target <https://--WCT_base--/api/v1/target>`_
 
 Header
 ------
@@ -27,9 +27,8 @@ offset Number Optional
 limit  Number Optional
 ====== ====== ========
 
-**filter**
-
-Name of field upon which the result set must be filtered. Only filterable fields maybe given, others are ignored. Filterable fields are:
+| **filter**
+| Name of field upon which the result set must be filtered. Only filterable fields maybe given, others are ignored. Filterable fields are:
 
 * targetId [exact match only]
 * name [contains text]
@@ -41,12 +40,11 @@ Name of field upon which the result set must be filtered. Only filterable fields
 * nonDispalyOnly [Boolean]
 * state [List of integers, exact match only]
 
-Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
-
-With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains 
-the given value in the given field. All given characters are used, there are no wild cards.
-
-The state of a target is an integer with the following values:
+| Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
+|
+| With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
+| 
+| The state of a target is an integer with the following values:
 
 ========= ==========
 **State** **Value**
@@ -62,42 +60,35 @@ The state of a target is an integer with the following values:
 
 The list of possible status values can be retrieved with: <API TODO>.
   
-**sortBy**
+| **sortBy**
+| Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
 
-Name of field upon which the result set must be sorted. The field name must be followed by an 
-indication if the sorting must be ascending (asc) or descending (desc).
+| Only sortable fields maybe given, others are ignored. Sortable fields are:
+| * name (default)
+| * creationDate
 
-Only sortable fields maybe given, others are ignored. Sortable fields are:
+| Only one sort field may be given as input. If multiple sort fields are given then this will result in an error. 
+| Example:
+| sortBy=Name,asc
 
-* name (default)
-* creationDate
+| **offset**
+| Specifies the number of rows in the result set to skip before limiting starts. 
+| Default: 0
+| Minimum: 0
 
-Only one sort field may be given as input. If multiple sort fields are given then this will result in an error.
-
-Example:
-sortBy=Name,asc
-
-**offset**
-
-Specifies the number of rows in the result set to skip before limiting starts. 
-Default: 0
-Minimum: 0
-
-The results page shown is equal to:
-TRUNC(*offset* / *limit*) + 1
-
-So the if the *offset* value is not a multiple of the *limit* value then the results page shown is the page 
-upon which the offset row is present. E.g. If *limit* is 10 and *offset* is 19 then the page shown is TRUNC(19/10) + 1 = 2.
+| The results page shown is equal to:
+| TRUNC(*offset* / *limit*) + 1
+ 
+So the if the *offset* value is not a multiple of the *limit* value then the results page shown is the page upon which the offset row is present. E.g. If *limit* is 10 and *offset* is 19 then the page shown is TRUNC(19/10) + 1 = 2.
 
 Issue: At this moment in time (11-2022) *offset* **must** be a multiple of *limit*
 
-**limit**
-
-Number of records returned from the offset.
-Default: 10
-Minimum: 10
-Maximum: 100
-
+| **limit**
+| Number of records returned from the offset.
+| Default: 10
+| Minimum: 10
+| Maximum: 100
+ 
 This is the amount of rows shown on a results page.
 
 Response
@@ -115,14 +106,12 @@ amount 	   Number Required
 targets    List   Optional
 ========== ====== ========
 
-**amount**
+| **amount**
+| Number of total targets in the search result.  
 
-Number of total targets in the search result.  
-
-**targets**
-
-This is a list of found targets. It could be that no targets are returned.
-
+| **targets**
+| This is a list of found targets. It could be that no targets are returned.
+ 
 The following information is returned per found target:
 
 ============ ====== ========
@@ -137,14 +126,11 @@ status		 Number Required
 seeds		 List   Required
 ============ ====== ========
 
-**creationDate**
+| **creationDate**
+| This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
 
-This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
-
-**seeds**
-
-A list of seeds containing the following information:
-
+| **seeds**
+| A list of seeds containing the following information:
 
 ======= ======= ========
 **seeds**
@@ -153,9 +139,8 @@ seed	URL	    Required
 primary Boolean	Required
 ======= ======= ========
 
-**primary**
-
-This indicates if a seed is the primary seed, or not. There can only be one primary seed.
+| **primary**
+| This indicates if a seed is the primary seed, or not. There can only be one primary seed.
 
 Errors
 ------
