@@ -38,7 +38,5 @@ Errors
 If any error is the token given is not invalidated.
 
 === ==================================================================
-400 Bad Request, if username and/or password is not given.
-403 Not authorized, with given username and password.
-405 Method not allowed, if anything other then POST or DELETE is used.
+405 Method not allowed, if anything other then DELETE is used.
 === ==================================================================
