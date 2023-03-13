@@ -16,48 +16,13 @@ Header
 
 Body
 ----
-.. include:: descriptions/desc-request-body-empty
+.. include:: descriptions/desc-request-body-empty.rst
 
 Response
 --------
 200: OK
 
-============ ======= ========
-**Body**
------------------------------
-target-id    Number  Required
-creationDate Date    Required 
-name         Text    Required
-agency       Text    Required
-owner-id     Number  Required
-state        Number  Required
-description  String  Optional
-refNumber    String  Optional
-automatedQA  Boolean Required
-autoPrune    Boolean Required
-refCrawl     Boolean Required
-request      String  Optional
-seeds        List    Required
-profile      List    Required
-schedule     List    Required
-annotations  List    Optional
-description  List    Optional
-groups       List    Optional
-access       List    Required
-============ ======= ========
-
-.. include:: descriptions/desc-creationDate.rst
-
-.. include:: descriptions/desc-state_target.rst
-
-.. include:: descriptions/desc-seeds.rst
-
-| **profile**
-| **schedule**
-| **annotations**
-| **description**
-| **groups**
-| **access**
+.. include:: descriptions/desc-target.rst
 
 Errors
 ------
