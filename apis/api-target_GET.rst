@@ -14,7 +14,7 @@ Header
 ------
 Authorization: Bearer <token>
 
-To get a token the user must login via the API :doc:`api-authentication_POST`.
+To get a token the user must login via the API :doc:`api-authentication_PUT`.
 
 Body
 ----
@@ -24,16 +24,69 @@ Response
 --------
 200: OK
 
-============ ====== ========
+============ ======= ========
 **Body**
-----------------------------
-target-id    Number Required
-creationDate Date   Required
-...          ...    ...
-============ ====== ========
+-----------------------------
+target-id    Number  Required
+creationDate Date    Required 
+name         Text    Required
+agency       Text    Required
+owner-id     Number  Required
+state        Number  Required
+description  String  Optional
+refNumber    String  Optional
+automatedQA  Boolean Required
+autoPrune    Boolean Required
+refCrawl     Boolean Required
+request      String  Optional
+seeds        List    Required
+profile      List    Required
+schedule     List    Required
+annotations  List    Optional
+description  List    Optional
+groups       List    Optional
+access       List    Required
+============ ======= ========
 
 | **creationDate**
 | This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
+
+| **state**
+| The state of a target is an integer with the following values:
+
+========= ==========
+**State** **Value**
+--------- ----------
+  1       Pending
+  2       Reinstated
+  3       Nominated
+  4       Rejected
+  5       Approved
+  6       Cancelled
+  7       Completed
+========= ==========
+
+The list of possible state values for targets can be retrieved with: :doc:`api-target_states_GET`.
+
+| **seeds**
+| A list of seeds containing the following information:
+
+======= ======= ========
+**seeds**
+------------------------
+seed	URL	    Required
+primary Boolean	Required
+======= ======= ========
+
+| **primary**
+| This indicates if a seed is the primary seed, or not. There can only be one primary seed.
+
+| **profile**
+| **schedule**
+| **annotations**
+| **description**
+| **groups**
+| **access**
 
 Errors
 ------

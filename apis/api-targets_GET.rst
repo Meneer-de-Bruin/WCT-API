@@ -58,7 +58,7 @@ limit  Number Optional
   7       Completed
 ========= ==========
 
-The list of possible status values can be retrieved with: <API TODO>.
+The list of possible state values for targets can be retrieved with: :doc:`api-target_states_GET`.
   
 | **sortBy**
 | Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
@@ -119,8 +119,8 @@ target-id    Number Required
 creationDate Date   Required 
 name         Text   Required
 agency       Text   Required
-owner        Text   Required
-status       Number Required
+owner-id     Number Required
+state        Number Required
 seeds        List   Required
 ============ ====== ========
 
