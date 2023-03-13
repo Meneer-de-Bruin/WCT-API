@@ -1,4 +1,4 @@
-.. |br| raw:: html <br/>
+.. include:: global.rst
 
 ==================================
 Web Curator Tool API Documentation
