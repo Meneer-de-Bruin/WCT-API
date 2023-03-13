@@ -1,5 +1,3 @@
-.. include:: global.rst
-
 ==================================
 Web Curator Tool API Documentation
 ==================================

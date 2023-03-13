@@ -1,7 +1,3 @@
-.. |br| raw:: html 
-
-<br/>
-
 Delete token (DELETE)
 ===================
 Takes username, password and token as input and invalidates the specified token. This essentially menas the user logs out.
@@ -18,8 +14,8 @@ Request
 -------
 `https://--WCT_base--/api/v1/token/{token} <https://--WCT_base--/api/v1/token/{token}>`_
 
-**token** |br|
-Token is given upon a succesful login via the API :doc:`api-authentication_POST`.
+**token**
+|Token is given upon a succesful login via the API :doc:`api-authentication_POST`.
 
 Header
 ------
