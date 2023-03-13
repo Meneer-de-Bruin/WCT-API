@@ -51,22 +51,7 @@ access       List    Required
 | **creationDate**
 | This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
 
-| **state**
-| The state of a target is an integer with the following values:
-
-========= ==========
-**State** **Value**
---------- ----------
-  1       Pending
-  2       Reinstated
-  3       Nominated
-  4       Rejected
-  5       Approved
-  6       Cancelled
-  7       Completed
-========= ==========
-
-The list of possible state values for targets can be retrieved with API :doc:`api-target_states_GET`.
+.. include:: descriptions/desc-state_target.rst
 
 | **seeds**
 | A list of seeds containing the following information:
