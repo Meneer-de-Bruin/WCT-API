@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target <https://--WCT_base--/api/v1/target>`_
+`https://--WCT_base--/api/v1/target <https://wct-api.readthedocs.io/en/latest/apis/api-targets_GET.html>`_
 
 Header
 ------
@@ -41,9 +41,9 @@ limit  Number Optional
 | Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
 |
 | With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
-| 
+
 .. include:: descriptions/desc-state_target.rst
-  
+
 | **sortBy**
 | Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
 
@@ -54,6 +54,7 @@ limit  Number Optional
 Only one sort field may be given as input. If multiple sort fields are given then this will result in an error. Example: sortBy=Name,asc
 
 .. include:: descriptions/desc-request-offset.rst
+
 .. include:: descriptions/desc-request-limit.rst
 
 Response
@@ -92,7 +93,9 @@ seeds        List   Required
 ============ ====== ========
 
 .. include:: descriptions/desc-creationDate.rst
+
 .. include:: descriptions/desc-state_target.rst
+
 .. include:: descriptions/desc-seeds.rst
 
 Errors
@@ -101,6 +104,6 @@ If any error is raised no output is returned.
 
 === ========================================================================================
 400 Bad Request, including reason why e.g. Unsupported or malformed sort spec <sortBy field>
-403 Not authorized, with given token
-405 Method not allowed, if anything other then GET is used.
+403 Not authorized, user is no longer logged in.
+405 Method not allowed, only GET is allowed.
 === ========================================================================================

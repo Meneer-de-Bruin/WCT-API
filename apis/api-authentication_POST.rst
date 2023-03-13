@@ -16,7 +16,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/token <https://--WCT_base--/api/v1/token>`_
+`https://--WCT_base--/api/v1/token <https://wct-api.readthedocs.io/en/latest/apis/api-authentication_POST.html>`_
 
 Header
 ------
@@ -52,7 +52,7 @@ Errors
 If any error is raised no token is returned.
 
 === ==================================================================
-400 Bad Request, if username and/or password is not given.
-403 Not authorized, with given username and password.
-405 Method not allowed, if anything other then POST, DELETE is used.
+400 Bad Request, username and/or password are missing.
+403 Not authorized, given username and/or password are not valid.
+405 Method not allowed, only POST, DELETE are allowed.
 === ==================================================================

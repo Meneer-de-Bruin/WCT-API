@@ -47,7 +47,9 @@ access       List    Required
 ============ ======= ========
 
 .. include:: descriptions/desc-creationDate.rst
+
 .. include:: descriptions/desc-state_target.rst
+
 .. include:: descriptions/desc-seeds.rst
 
 Errors
@@ -55,7 +57,7 @@ Errors
 If any error is raised no output is returned.
 
 === ==========================================================================
-400 Bad request, if non-existing targetID is given.
-403 Not authorized, with given token.
-405 Method not allowed, if anything other then GET, POST, PUT, DELETE is used.
+400 Bad request, non-existing target-id has been given.
+403 Not authorized, user is no longer logged in.
+405 Method not allowed, only GET, POST, PUT, DELETE are allowed.
 === ==========================================================================
