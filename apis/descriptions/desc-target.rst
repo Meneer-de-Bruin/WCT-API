@@ -18,8 +18,6 @@ access       List    Required
 
 .. include:: descriptions/desc-general_target.rst
 
-.. include:: descriptions/desc-state_target.rst
-
 .. include:: descriptions/desc-seeds.rst
 
 .. include:: descriptions/desc-profile_target.rst

@@ -1,13 +1,5 @@
-general
-~~~~~~~
-
--------
-general
--------
-
 | **general**
-| =======
-| **general**
+| **=======**
 | A list of general properties that belong to a target. This contains the following information:
 
 ============ ======= ========
@@ -21,3 +13,5 @@ autoPrune    Boolean Required
 refCrawl     Boolean Required
 request      String  Optional
 ============ ======= ========
+
+.. include:: descriptions/desc-state_target.rst
