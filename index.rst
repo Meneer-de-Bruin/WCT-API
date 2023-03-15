@@ -1,5 +1,6 @@
+==================================
 Web Curator Tool API Documentation
-##################################
+==================================
 
 .. toctree::
    :maxdepth: 1
@@ -9,9 +10,21 @@ Web Curator Tool API Documentation
    guides/principles
    guides/release-notes
 
+.. include:: apis/api-overview.rst
+   
+API's
+=====
+.. toctree::
+   :maxdepth: 1
+   :caption Authentication
+
+   api-authentication_POST
+   api-authentication_DELETE
    
 .. toctree::
-   :maxdepth: 2
-   :caption: API Documentation
-   
-   apis/api-overview
+   :maxdepth: 1
+   :caption: Target
+
+   api-targets_GET
+   api-target_GET
+   api-target_DELETE
