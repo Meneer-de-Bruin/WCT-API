@@ -5,16 +5,18 @@ to use the string 'latest' to call upon the latest version of the api.
 
 If an api is deprecated and no longer supported then the error 404 'Not Found – the requested resource does not exist' is returned. 
 
+Authentication
+==============
 .. toctree::
    :maxdepth: 1
-   :caption: Authentication
 
    api-authentication_POST
    api-authentication_DELETE
    
+Target
+======
 .. toctree::
    :maxdepth: 1
-   :caption: Target
 
    api-targets_GET
    api-target_GET
