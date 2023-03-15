@@ -22,9 +22,14 @@ access       List    Required
 
 .. include:: descriptions/desc-seeds.rst
 
-| **profile**
-| **schedule**
-| **annotations**
-| **description**
-| **groups**
-| **access**
+.. include:: descriptions/desc-profile.rst
+
+.. include:: descriptions/desc-schedule.rst
+
+.. include:: descriptions/desc-annotations.rst
+
+.. include:: descriptions/desc-description.rst
+
+.. include:: descriptions/desc-groups.rst
+
+.. include:: descriptions/desc-access.rst
