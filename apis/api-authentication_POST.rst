@@ -6,6 +6,7 @@ of inactivity (<x>) is configurable in WCT.
 
 Each call to a WCT API (except for authentication for obvious reasons) must contain a valid token. The token must 
 be added to the HTTP header of each call:
+
 .. include:: descriptions/desc-header-authentication.rst
 
 Version
