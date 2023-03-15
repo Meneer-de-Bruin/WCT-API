@@ -13,18 +13,25 @@ Request
 Also the following parts can be retrieved seperatly by adding the part name to the request query, e.g.
 `https://--WCT_base--/api/v1/target/{target-id}/{part}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
 
-===========
-**part**
------------
-general
-seeds
-profile
-schedule
-annotations
-description
-groups
-access
-===========
++-------------+
+| **part**    |
++=============+
+| general     | 
++-------------+
+| seeds       |
++-------------+
+| profile     |
++-------------+
+| schedule    |
++-------------+
+| annotations |
++-------------+
+| description |
++-------------+
+| groups      |
++-------------+
+| access      |
++-------------+
 
 Header
 ------
