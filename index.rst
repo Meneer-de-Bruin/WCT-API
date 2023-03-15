@@ -9,22 +9,22 @@ Web Curator Tool API Documentation
    guides/introduction
    guides/principles
    guides/release-notes
-
-.. include:: apis/api-overview.rst
    
 API's
 =====
+.. include:: apis/api-overview.rst
+
 .. toctree::
    :maxdepth: 1
    :caption Authentication
 
-   api-authentication_POST
-   api-authentication_DELETE
+   apis/api-authentication_POST
+   apis/api-authentication_DELETE
    
 .. toctree::
    :maxdepth: 1
    :caption: Target
 
-   api-targets_GET
-   api-target_GET
-   api-target_DELETE
+   apis/api-targets_GET
+   apis/api-target_GET
+   apis/api-target_DELETE

@@ -14,9 +14,9 @@ groups       List    Optional
 access       List    Required
 ============ ======= ========
 
-.. include:: descriptions/desc-general_target.rst
-
 .. include:: descriptions/desc-creationDate.rst
+
+.. include:: descriptions/desc-general_target.rst
 
 .. include:: descriptions/desc-state_target.rst
 
