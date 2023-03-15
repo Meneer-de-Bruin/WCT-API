@@ -2,13 +2,11 @@
 Web Curator Tool API Documentation
 ==================================
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Overview
-
-   guides/introduction
-   guides/principles
-   guides/release-notes
+Overview
+========
+.. include:: guides/introduction.rst
+.. include:: guides/principles.rst
+.. include:: guides/release-notes.rst
    
 API's
 =====

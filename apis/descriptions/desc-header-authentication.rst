@@ -1,3 +1,3 @@
 Authorization: Bearer {token}
 
-.. include:: descriptions/desc-token.rst
+.. include:: desc-token.rst
