@@ -1,4 +1,5 @@
 | **seeds**
+| **-----**
 | A list of seeds containing the following information:
 
 ======= ======= ========
@@ -8,5 +9,5 @@ seed	URL	    Required
 primary Boolean	Required
 ======= ======= ========
 
-| *primary*
+| **primary**
 | This indicates if a seed is the primary seed, or not. There can only be one primary seed.
