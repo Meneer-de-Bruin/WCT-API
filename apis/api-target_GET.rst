@@ -10,7 +10,7 @@ Request
 -------
 `https://--WCT_base--/api/v1/target/{target-id}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
 
-Also the following parts can be retrieved seperatly by adding the part name to the request query, e.g.
+Also the following parts can be retrieved separately by adding the part name to the request query, e.g.
 `https://--WCT_base--/api/v1/target/{target-id}/{part}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
 
 +-------------+
@@ -32,6 +32,8 @@ Also the following parts can be retrieved seperatly by adding the part name to t
 +-------------+
 | access      |
 +-------------+
+
+The following information is always returned: target-id, creationDate and name.
 
 Header
 ------
