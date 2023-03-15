@@ -9,13 +9,13 @@ If an api is deprecated and no longer supported then the error 404 'Not Found â€
    :maxdepth: 1
    :caption: Authentication
 
-   apis/api-authentication_POST
-   apis/api-authentication_DELETE
+   api-authentication_POST
+   api-authentication_DELETE
    
 .. toctree::
    :maxdepth: 1
    :caption: Target
 
-   apis/api-targets_GET
-   apis/api-target_GET
-   apis/api-target_DELETE
+   api-targets_GET
+   api-target_GET
+   api-target_DELETE
