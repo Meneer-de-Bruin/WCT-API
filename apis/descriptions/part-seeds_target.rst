@@ -1,5 +1,5 @@
 ---------------
-**Part: seeds**
+**part: seeds**
 ---------------
 A list of seeds containing the following information:
 
