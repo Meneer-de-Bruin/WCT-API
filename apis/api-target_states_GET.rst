@@ -1,4 +1,49 @@
 Retrieve Target states (GET)
 ============================
 
-This API is waiting on specification.
+Returns all the states a target can have.
+
+Version
+-------
+1.0.0
+
+Request
+-------
+`https://--WCT_base--/api/v1/target/states <https://wct-api.readthedocs.io/en/latest/apis/api-target_states_GET.html>`_
+
+Header
+------
+.. include:: descriptions/desc-header-authentication.rst
+
+Body
+----
+.. include:: descriptions/desc-request-body-empty.rst
+
+Response
+--------
+200: OK
+
+====== ==== ========
+**Body**
+--------------------
+states List Required
+====== ==== ========
+
+.. include:: descriptions/desc-state_target.rst
+
+Errors
+------
+If any error is raised no output is returned.
+
+=== ========================================================================================
+400 Bad Request, including reason why e.g. Unsupported or malformed sort spec <sortBy field>
+403 Not authorized, user is no longer logged in.
+405 Method not allowed, only GET is allowed.
+=== ========================================================================================
+
+Example
+-------
+.. code-block:: linux
+
+  <TODO>
+ 

@@ -120,7 +120,9 @@ If any error is raised no output is returned.
 
 Example
 -------
-curl -i -X GET \
-   -H "Authorization:Bearer abc123" \
- 'http://localhost/wct/api/v1/targets?agency=KB&state=5&sortBy=creationDate%2Casc&offset=0&limit=100'
+.. code-block:: linux
+
+  curl -i -X GET \
+  -H "Authorization:Bearer abc123" \
+  'http://localhost/wct/api/v1/targets?agency=KB&state=5&sortBy=creationDate%2Casc&offset=0&limit=100'
  

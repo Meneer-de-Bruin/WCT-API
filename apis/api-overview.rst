@@ -21,3 +21,4 @@ Target
    api-targets_GET
    api-target_GET
    api-target_DELETE
+   api-target_states_GET
