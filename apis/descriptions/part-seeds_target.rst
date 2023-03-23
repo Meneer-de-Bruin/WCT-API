@@ -1,6 +1,7 @@
-| **seeds**
-| **+++++**
-| A list of seeds containing the following information:
+---------------
+**Part: seeds**
+---------------
+A list of seeds containing the following information:
 
 ============== ======= ========
 **seeds**

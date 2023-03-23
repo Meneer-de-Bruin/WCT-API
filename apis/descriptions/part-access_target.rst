@@ -1,7 +1,8 @@
-| **annotations**
-| **-----------**
-| A list of annotations properties that belong to a target. This contains the following information:
+----------------
+**Part: access**
+----------------
+A list of access properties that belong to a target. This contains the following information:
 
 ============ ======= ========
-annotations  Text    Required
+access       Text    Required
 ============ ======= ========
