@@ -4,9 +4,7 @@ Principles
 
 Maturity
 ========
-The WCT APIs are fully RESTful webservices as defined by the Richardson maturity model (https://restfulapi.net/richardson-maturity-model/).
-Important here is that the APIs not only adhere to the REST principals (https://restfulapi.net/), but also implement Hypertext As 
-The Engine Of Application State (HATEOAS).
+The WCT APIs are fully RESTful webservices as defined by the REST principals (https://restfulapi.net/). They adhere to the Richardson maturity model level 2 (https://restfulapi.net/richardson-maturity-model/). Level two of maturity makes use of URIs and HTTP Methods, but does not implement HATEOAS.  
 
 Versioning
 ==========

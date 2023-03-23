@@ -58,8 +58,9 @@ If any error is raised no token is returned.
 
 Example
 -------
+.. code-block::
 curl -i -X POST \
    -H "Content-Type:application/x-www-form-urlencoded" \
    -d "username=test" \
    -d "password=test" \
- 'http://localhost/wct/api/v1/token'
+  'http://localhost/wct/api/v1/token'
