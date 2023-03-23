@@ -1,9 +1,9 @@
 | **state**
 | The state of a target is an integer with the following values:
 
-========= ==========
-**State** **Value**
---------- ----------
+========= ===============
+**State** **Description**
+--------- ---------------
   1       Pending
   2       Reinstated
   3       Nominated
@@ -11,6 +11,6 @@
   5       Approved
   6       Cancelled
   7       Completed
-========= ==========
+========= ===============
 
 The list of possible state values for targets can be retrieved with API :doc:`api-target_states_GET`.

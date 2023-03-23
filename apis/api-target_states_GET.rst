@@ -1,7 +1,7 @@
 Retrieve Target states (GET)
 ============================
 
-Returns all the states a target can have.
+Returns a list of all the states that a target can have, including the description of each specific state.
 
 Version
 -------
@@ -28,6 +28,9 @@ Response
 --------------------
 states List Required
 ====== ==== ========
+
+| **states**
+| Is a list of all the states that a target can have, including the description of each specific state.
 
 .. include:: descriptions/desc-state_target.rst
 

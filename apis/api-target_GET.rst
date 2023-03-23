@@ -33,7 +33,7 @@ Also the following parts can be retrieved separately by adding the part name to 
 | access      |
 +-------------+
 
-The following information is always returned: target-id, creationDate and name.
+When a part is retrieved the following infomation is always returned: target-id, creationDate and name.
 
 Header
 ------
