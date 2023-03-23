@@ -37,3 +37,8 @@ If any error is raised then the token given is not invalidated.
 === ==================================================================
 405 Method not allowed, only DELETE is allowed.
 === ==================================================================
+
+Example
+-------
+curl -i -X DELETE \
+ 'http://localhost/wct/api/v1/token/abc123'

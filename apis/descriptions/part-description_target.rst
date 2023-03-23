@@ -1,7 +1,22 @@
 | **description**
-| **-----------**
-| A list of description properties that belong to a target. This contains the following information:
+| **+++++++++++**
+| A list of description properties that belong to a target and are used for Dublin Core generation on archiving. This contains the following information:
 
 ============ ======= ========
-description  Text    Required
+**description**
+-----------------------------
+identifier   String  Optional
+description  Text    Optional
+subject      Text    Optional
+creator      String  Optional
+publisher    String  Optional
+contributer  String  Optional
+type         String  Optional
+format
+source
+language
+relation
+coverage
+issn
+isbn
 ============ ======= ========

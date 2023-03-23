@@ -55,3 +55,11 @@ If any error is raised no token is returned.
 403 Not authorized, given username and/or password are not valid.
 405 Method not allowed, only POST, DELETE are allowed.
 === ==================================================================
+
+Example
+-------
+curl -i -X POST \
+   -H "Content-Type:application/x-www-form-urlencoded" \
+   -d "username=test" \
+   -d "password=test" \
+ 'http://localhost/wct/api/v1/token'

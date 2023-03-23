@@ -5,8 +5,8 @@
 ============== ======= ========
 **seeds**
 -------------------------------
-seed          URL     Required
-primary       Boolean Required
+seed           URL     Required
+primary        Boolean Required
 authorisations List    Required
 ============== ======= ========
 

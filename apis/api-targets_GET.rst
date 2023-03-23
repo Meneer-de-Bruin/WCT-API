@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target <https://wct-api.readthedocs.io/en/latest/apis/api-targets_GET.html>`_
+`https://--WCT_base--/api/v1/targets <https://wct-api.readthedocs.io/en/latest/apis/api-targets_GET.html>`_
 
 Header
 ------
@@ -16,6 +16,8 @@ Header
 
 Body
 ----
+The body of the request is empty as this is a GET request. All information must be passed on to the API via query parameters.
+
 ====== ====== ========
 **GET**
 ----------------------
@@ -32,10 +34,10 @@ limit  Number Optional
 * name [contains text]
 * seed [contains text]
 * agency [exact match only]
-* owner [exact match only]
+* userId [exact match only]
 * description [contains text]
 * groupName [contains text]
-* nonDispalyOnly [Boolean]
+* nonDisplayOnly [Boolean]
 * state [List of integers, exact match only]
 
 | Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
@@ -85,9 +87,9 @@ The following information is returned per found target:
 ----------------------------
 target-id    Number Required
 creationDate Date   Required 
-name         Text   Required
-agency       Text   Required
-owner-id     Number Required
+name         String Required
+agency       String Required
+owner        String Required
 state        Number Required
 seeds        List   Required
 ============ ====== ========
@@ -96,7 +98,15 @@ seeds        List   Required
 
 .. include:: descriptions/desc-state_target.rst
 
-.. include:: descriptions/desc-seeds.rst
+| **seeds**
+| A list of seeds containing the following information:
+
+============== ======= ========
+**seeds**
+-------------------------------
+seed           URL     Required
+primary        Boolean Required
+============== ======= ========
 
 Errors
 ------
@@ -107,3 +117,10 @@ If any error is raised no output is returned.
 403 Not authorized, user is no longer logged in.
 405 Method not allowed, only GET is allowed.
 === ========================================================================================
+
+Example
+-------
+curl -i -X GET \
+   -H "Authorization:Bearer abc123" \
+ 'http://localhost/wct/api/v1/targets?agency=KB&state=5&sortBy=creationDate%2Casc&offset=0&limit=100'
+ 

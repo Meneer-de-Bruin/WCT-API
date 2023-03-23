@@ -1,8 +1,8 @@
 Delete Target (DELETE)
 ======================
-Deletes a specific target. This is only possible if there are no attached target instances. After a delete the target will have been completly removed from the WCT database.
+Deletes a specific target. This is only possible if there are no attached target instances. Also the status of the target must be 'Rejected' or 'Cancelled'. After a delete the target will have been completly removed from the WCT database.
 
-If the target must be set to 'Rejected' then the API :doc:`api-target_PUT` must be used.
+If the target must be set to 'Rejected' or 'Cancelled' then the API :doc:`api-target_PUT` must be used.
 
 Version
 -------
