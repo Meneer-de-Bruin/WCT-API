@@ -40,5 +40,7 @@ If any error is raised then the token given is not invalidated.
 
 Example
 -------
-curl -i -X DELETE \
- 'http://localhost/wct/api/v1/token/abc123'
+.. code-block:: linux
+
+  curl -i -X DELETE \
+  'http://localhost/wct/api/v1/token/abc123'
