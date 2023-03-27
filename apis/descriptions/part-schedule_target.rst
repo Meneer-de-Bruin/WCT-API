@@ -1,6 +1,16 @@
 ------------------
-**Part: schedules**
+**Part: schedule**
 ------------------
+Consists of the following information:
+
+=================== ======= ========
+**schedule**
+------------------------------------
+harvestOptimization Boolean Optional
+schedules           List    Optional
+=================== ======= ========
+
+**schedules**
 A list of schedules that belong to a target containing the following information:
 
 ================= ====== ========
