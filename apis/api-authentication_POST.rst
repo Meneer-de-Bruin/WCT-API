@@ -60,8 +60,7 @@ Example
 -------
 .. code-block:: linux
 
-  curl -i -X POST \
-  -H "Content-Type:application/x-www-form-urlencoded" \
-  -d "username=test" \
-  -d "password=test" \
-  'http://localhost/wct/api/v1/token'
+  curl \
+  --location 'http://localhost/wct/api/v1/token' \
+  --form 'username="<username>"' \
+  --form 'password="<password>"'

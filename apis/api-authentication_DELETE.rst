@@ -42,5 +42,5 @@ Example
 -------
 .. code-block:: linux
 
-  curl -i -X DELETE \
-  'http://localhost/wct/api/v1/token/abc123'
+  curl \
+  --location --request DELETE 'http://localhost/wct/api/v1/token/<token>'

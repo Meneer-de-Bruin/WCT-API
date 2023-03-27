@@ -44,6 +44,8 @@ limit  Number Optional
 |
 | With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
 
+.. include:: descriptions/desc-userId.rst
+
 .. include:: descriptions/desc-state_target.rst
 
 | **sortBy**
@@ -122,7 +124,7 @@ Example
 -------
 .. code-block:: linux
 
-  curl -i -X GET \
-  -H "Authorization:Bearer abc123" \
-  'http://localhost/wct/api/v1/targets?agency=KB&state=5&sortBy=creationDate%2Casc&offset=0&limit=100'
+  curl \
+  --location 'http://localhost/wct/api/v1/targets?states=5&sortBy=creationDate%2Casc&limit=5' \
+  --header 'Authorization: Bearer <token>'
  
