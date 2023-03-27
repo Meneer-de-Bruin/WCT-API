@@ -6,6 +6,7 @@ A list of seeds that belong to a target containing the following information:
 ============== ======= ========
 **seeds**
 -------------------------------
+seedId         Number  Required
 seed           URL     Required
 primary        Boolean Required
 authorisations List    Required

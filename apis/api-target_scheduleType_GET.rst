@@ -1,5 +1,5 @@
-Retrieve Target states (GET)
-============================
+Retrieve target schedule types (GET)
+====================================
 
 Returns a list of all the schedule types that a target can have, including the description of each specific schedule type.
 
@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target/scheduleType_GET <https://wct-api.readthedocs.io/en/latest/apis/api-scheduleType_GET.html>`_
+`https://--WCT_base--/api/v1/target/scheduleType_GET <https://wct-api.readthedocs.io/en/latest/apis/api-target_scheduleType_GET.html>`_
 
 Header
 ------

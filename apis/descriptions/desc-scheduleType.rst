@@ -15,4 +15,4 @@
  -7      Annually
 ======== ======================
 
-The list of possible schedule type values for targets can be retrieved with API :doc:`api-scheduleType_GET`.
+The list of possible schedule type values for targets can be retrieved with API :doc:`api-target_scheduleType_GET`.

@@ -1,3 +1,4 @@
+============
 API Overview
 ============
 In general the version number in the api call is the letter 'v' followed by the latest major version number. E.g. 'v1'. It is also possible 
@@ -22,3 +23,4 @@ Target
    api-target_GET
    api-target_DELETE
    api-target_states_GET
+   api-target_scheduleType_GET
