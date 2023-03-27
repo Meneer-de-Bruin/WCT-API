@@ -87,7 +87,7 @@ The following information is returned per found target:
 ============ ====== ========
 **Body**
 ----------------------------
-target-id    Number Required
+targetId     Number Required
 creationDate Date   Required 
 name         String Required
 agency       String Required

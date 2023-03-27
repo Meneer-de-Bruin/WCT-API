@@ -1,7 +1,7 @@
 ---------------
 **part: seeds**
 ---------------
-A list of seeds containing the following information:
+A list of seeds that belong to a target containing the following information:
 
 ============== ======= ========
 **seeds**

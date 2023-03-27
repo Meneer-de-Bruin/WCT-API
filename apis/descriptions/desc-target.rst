@@ -1,13 +1,13 @@
 ============ ======= ========
 **Body**
 -----------------------------
-target-id    Number  Required
+targetId     Number  Required
 creationDate Date    Required
 name         String  Required
 general      List    Optional
 seeds        List    Required
 profile      List    Required
-schedule     List    Required
+schedules    List    Required
 annotations  List    Optional
 description  List    Optional
 groups       List    Optional
@@ -22,7 +22,7 @@ access       List    Required
 
 .. include:: descriptions/part-profile_target.rst
 
-.. include:: descriptions/part-schedule_target.rst
+.. include:: descriptions/part-schedules_target.rst
 
 .. include:: descriptions/part-annotations_target.rst
 
