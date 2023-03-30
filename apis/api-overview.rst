@@ -21,6 +21,21 @@ Target
 
    api-targets_GET
    api-target_GET
+   api-target_PUT
    api-target_DELETE
    api-target_states_GET
-   api-target_scheduleType_GET
+   api-target_scheduleTypes_GET
+   
+User
+====
+.. toctree::
+   :maxdepth: 1
+   
+   api-users_GET.rst
+   
+Harvest Authorisations
+======================
+.. toctree::
+   :maxdepth: 1
+   
+   api-harvest_authorisation_GET.rst

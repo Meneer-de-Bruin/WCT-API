@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target/scheduleType_GET <https://wct-api.readthedocs.io/en/latest/apis/api-target_scheduleType_GET.html>`_
+`https://--WCT_base--/api/v1/target/scheduleTypes <https://wct-api.readthedocs.io/en/latest/apis/api-target_scheduleTypes_GET.html>`_
 
 Header
 ------
