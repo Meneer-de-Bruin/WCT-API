@@ -13,11 +13,11 @@ creator      String  Optional
 publisher    String  Optional
 contributer  String  Optional
 type         String  Optional
-format
-source
-language
-relation
-coverage
-issn
-isbn
+format       String  Optional
+source       String  Optional
+language     String  Optional
+relation     String  Optional
+coverage     String  Optional
+issn         String  Optional
+isbn         String  Optional
 ============ ======= ========

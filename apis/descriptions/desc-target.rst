@@ -1,7 +1,7 @@
 ============ ======= ========
 **Body**
 -----------------------------
-targetId     Number  Required
+id           Number  Required
 creationDate Date    Required
 name         String  Required
 general      List    Optional

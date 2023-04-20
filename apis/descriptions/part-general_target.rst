@@ -3,22 +3,19 @@
 -----------------
 A list of general properties that belong to a target. This contains the following information:
 
-============= ======= ========
+=================== ======= ========
 **general**
-------------------------------
-description   String  Required
-refNumber     String  Optional
-RunOnApproval Boolean Required
-automatedQA   Boolean Required
-userId        Number  Required
-state         Number  Required
-autoPrune     Boolean Required
-refCrawl      Boolean Required
-request       String  Optional
-============= ======= ========
-
-| **description**
-| The default is an empty string.
+------------------------------------
+description         String  Optional
+referenceNumber     String  Optional
+RunOnApproval       Boolean Required
+automatedQA         Boolean Required
+owner               String  Required
+state               Number  Required
+autoPrune           Boolean Required
+referencdCrawl      Boolean Required
+requestToArchivists String  Optional
+=================== ======= ========
 
 | **RunOnApproval**
 | The default is 'false'.

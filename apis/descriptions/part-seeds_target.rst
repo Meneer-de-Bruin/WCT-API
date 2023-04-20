@@ -13,7 +13,7 @@ authorisations List    Required
 ============== ======= ========
 
 | **primary**
-| This indicates if a seed is the primary seed, or not. There can only be one primary seed.
+| This indicates if a seed is the primary seed, or not. There can only be one primary seed. Default is 'false'.
 
 | **authorisations**
 | A list of identifiers of harvest authorisations. The harvest authorisation information itself can be retrivied with the API :doc:`api-harvest_authorisation_GET`.

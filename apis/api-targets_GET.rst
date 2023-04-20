@@ -16,6 +16,8 @@ Header
 
 Body
 ----
+The body of the request contains the parameters voor the retrieval of the targets. This has been done to ensure that the length of the GET URL does not exceed the maximum length. 
+
 The body of the request is empty as this is a GET request. All information must be passed on to the API via query parameters.
 
 ====== ====== ========
@@ -127,4 +129,6 @@ Example
   curl \
   --location 'http://localhost/wct/api/v1/targets?states=5&sortBy=creationDate%2Casc&limit=5' \
   --header 'Authorization: Bearer <token>'
- 
+  --form 'states="5"' \
+  --form 'sortBy="creationDate,asc"' \
+  --form 'limit="5"'

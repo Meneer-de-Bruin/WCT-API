@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target/{target-id}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
+`https://--WCT_base--/api/v1/targets/{target-id}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
 
 Also the following parts can be retrieved separately by adding the part name to the request query, e.g.
 `https://--WCT_base--/api/v1/target/{target-id}/{part}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
@@ -59,3 +59,17 @@ If any error is raised no output is returned.
 403 Not authorized, user is no longer logged in.
 405 Method not allowed, only GET, POST, PUT, DELETE are allowed.
 === ==========================================================================
+
+Example
+-------
+.. code-block:: linux
+
+  curl \
+  --location 'http://localhost/wct/api/v1/targets/<target-id>' \
+  --header 'Authorization: Bearer <token>'
+  
+.. code-block:: linux
+
+  curl \
+  --location 'http://localhost/wct/api/v1/targets/<target-id>/general' \
+  --header 'Authorization: Bearer <token>'
