@@ -15,7 +15,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/token <https://wct-api.readthedocs.io/en/latest/apis/api-authentication_POST.html>`_
+`https://--WCT_base--/auth/v1/token <https://wct-api.readthedocs.io/en/latest/apis/api-authentication_POST.html>`_
 
 Header
 ------
@@ -24,8 +24,6 @@ There are no specific header fields for this API.
 Body
 ----
 ======== ====== ========
-**POST**
-------------------------
 username String Required
 password String Required
 ======== ====== ========
@@ -61,6 +59,6 @@ Example
 .. code-block:: linux
 
   curl \
-  --location 'http://localhost/wct/api/v1/token' \
+  --location 'http://localhost/wct/auth/v1/token' \
   --form 'username="<username>"' \
   --form 'password="<password>"'

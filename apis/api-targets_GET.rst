@@ -21,8 +21,6 @@ The body of the request contains the parameters voor the retrieval of the target
 The body of the request is empty as this is a GET request. All information must be passed on to the API via query parameters.
 
 ====== ====== ========
-**GET**
-----------------------
 filter String Optional
 sortBy String Optional
 offset Number Optional

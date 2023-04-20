@@ -5,13 +5,13 @@ id           Number  Required
 creationDate Date    Required
 name         String  Required
 general      List    Optional
-seeds        List    Required
-profile      List    Required
-schedule     List    Required
+seeds        List    Optional
+profile      List    Optional
+schedule     List    Optional
 annotations  List    Optional
 description  List    Optional
 groups       List    Optional
-access       List    Required
+access       List    Optional
 ============ ======= ========
 
 .. include:: descriptions/desc-creationDate.rst

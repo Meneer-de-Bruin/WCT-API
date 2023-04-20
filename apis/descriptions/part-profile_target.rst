@@ -11,12 +11,12 @@ id              Number  Required
 imported        Boolean Required
 name            String  Required
 overrides       List    Optional
-profile			String	Optional
+profile         String  Optional
 =============== ======= ========
 
 .. include:: descriptions/desc-harvesterType.rst
 
 .. include:: descriptions/desc-overrides.rst
 
-| ** profile **
-| Required when imported is 'true'. This then contains the imported profile.
+| **profile**
+| Required when imported is 'true'. This then contains the imported profile as-is.

@@ -20,6 +20,7 @@ Target
    :maxdepth: 1
 
    api-targets_GET
+   api-target_POST
    api-target_GET
    api-target_PUT
    api-target_DELETE

@@ -10,7 +10,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/token/{token} <https://wct-api.readthedocs.io/en/latest/apis/api-authentication_DELETE.html>`_
+`https://--WCT_base--/auth/v1/token/{token} <https://wct-api.readthedocs.io/en/latest/apis/api-authentication_DELETE.html>`_
 
 .. include:: descriptions/desc-token.rst
 
@@ -43,4 +43,4 @@ Example
 .. code-block:: linux
 
   curl \
-  --location --request DELETE 'http://localhost/wct/api/v1/token/<token>'
+  --location --request DELETE 'http://localhost/wct/auth/v1/token/<token>'

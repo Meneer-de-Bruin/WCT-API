@@ -10,8 +10,8 @@ harvestOptimization Boolean Optional
 schedules           List    Optional
 =================== ======= ========
 
-**schedules**
-A list of schedules that belong to a target containing the following information:
+| **schedules**
+| A list of schedules that belong to a target containing the following information:
 
 ================= ====== ========
 **schedules**
