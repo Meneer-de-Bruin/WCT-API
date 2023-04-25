@@ -27,6 +27,13 @@ Target
    api-target_states_GET
    api-target_scheduleTypes_GET
    
+Target Instances
+================
+.. toctree::
+   :maxdepth: 1
+
+   api-target_instances_GET
+
 User
 ====
 .. toctree::
