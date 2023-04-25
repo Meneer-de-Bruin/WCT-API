@@ -1,9 +1,6 @@
 ============ ======= ========
 **Body**
 -----------------------------
-id           Number  Required
-creationDate Date    Required
-name         String  Required
 general      List    Optional
 seeds        List    Optional
 profile      List    Optional
@@ -13,8 +10,6 @@ description  List    Optional
 groups       List    Optional
 access       List    Optional
 ============ ======= ========
-
-.. include:: descriptions/desc-creationDate.rst
 
 .. include:: descriptions/part-general_target.rst
 

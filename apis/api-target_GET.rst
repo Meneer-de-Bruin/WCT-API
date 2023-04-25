@@ -33,8 +33,6 @@ Also the following parts can be retrieved separately by adding the part name to 
 | access      |
 +-------------+
 
-When a part is retrieved the following infomation is always returned: target-id, creationDate and name.
-
 Header
 ------
 .. include:: descriptions/desc-header-authentication.rst

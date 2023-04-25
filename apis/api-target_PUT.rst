@@ -33,7 +33,7 @@ Also the following parts can be updated separately by adding the part name to th
 | access      |
 +-------------+
 
-target-id and creationdate can never be updated. 
+target-id and creationdate can never be updated. These are system generated.
 
 Header
 ------
@@ -41,7 +41,7 @@ Header
 
 Body
 ----
-All required values, except for target-id and creationDate, must be given.
+All required values, except for target-id and creationDate, must be given. If target-id o
 
 .. include:: descriptions/desc-target.rst
 
@@ -49,7 +49,7 @@ Response
 --------
 200: OK
 
-The updated target (or part therof) is returned as if the API :doc:`api-target_PUT` had been used.
+The updated target (or part therof) is returned as if the API :doc:`api-target_GET` had been used.
 
 Errors
 ------

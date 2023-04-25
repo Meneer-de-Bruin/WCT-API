@@ -18,7 +18,7 @@ Header
 
 Body
 ----
-All required values, except for target-id and creationDate, must be given.
+All required values, except for target-id and creationDate, must be given. If target-id or creationDate are given then these are ignored.
 
 .. include:: descriptions/desc-target.rst
 
@@ -26,7 +26,7 @@ Response
 --------
 200: OK
 
-The inserted target is returned as if the API :doc:`api-target_PUT` had been used.
+The inserted target is returned as if the API :doc:`api-target_GET` had been used.
 
 Errors
 ------
