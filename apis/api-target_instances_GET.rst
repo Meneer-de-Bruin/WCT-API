@@ -49,6 +49,8 @@ limit  Number Optional
 
 .. include:: descriptions/desc-state_target_instance.rst
 
+.. include:: descriptions/desc-QARecommendation_target_instance.rst
+
 | **sortBy**
 | Name of field upon which the result set must be sorted. The field name must be followed by an indication if the sorting must be ascending (asc) or descending (desc).
 

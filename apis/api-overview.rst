@@ -14,8 +14,8 @@ Authentication
    api-authentication_POST
    api-authentication_DELETE
    
-Target
-======
+Targets
+=======
 .. toctree::
    :maxdepth: 1
 
