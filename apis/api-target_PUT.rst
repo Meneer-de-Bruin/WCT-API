@@ -41,7 +41,7 @@ Header
 
 Body
 ----
-All required values, except for target-id and creationDate, must be given. If target-id o
+All required values, except for target-id and creationDate, must be given. If target-id or creationDate are given then these are ignored.
 
 .. include:: descriptions/desc-target.rst
 
