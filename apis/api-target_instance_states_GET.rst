@@ -1,7 +1,7 @@
-Retrieve Target states (GET)
-============================
+Retrieve Target Instance States (GET)
+=====================================
 
-Returns a list of all the states that a target can have, including the description of each specific state.
+Returns a list of all the states that a target instance can have, including the description of each specific state.
 
 Version
 -------

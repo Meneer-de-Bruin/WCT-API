@@ -33,6 +33,7 @@ Target Instances
    :maxdepth: 1
 
    api-target_instances_GET
+   api-target_instance_states_GET
 
 User
 ====
