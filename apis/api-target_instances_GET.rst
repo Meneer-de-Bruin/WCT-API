@@ -57,6 +57,11 @@ limit  Number Optional
 | Only sortable fields maybe given, others are ignored. Sortable fields are:
 | * name (default)
 | * harvestDate
+| * runtime
+| * dataDownloaded
+| * AmountURLs
+| * pFailed
+| * AmountCrawls
 
 Only one sort field may be given as input. If multiple sort fields are given then this will result in an error. Example: sortBy=Name,asc
 
