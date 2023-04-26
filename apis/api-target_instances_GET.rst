@@ -106,7 +106,7 @@ dataDownloaded   Number Optional
 AmountURLs       Number Optional
 pFailed          Number Optional
 AmountCrawls     Number Optional
-QARecommendation Number Optional
+QARecommendation String Optional
 flag             Number Optional
 ================ ====== ========
 
