@@ -22,16 +22,6 @@ requestToArchivists String  Optional
 
 .. include:: descriptions/desc-creationDate.rst
 
-| **RunOnApproval**
-| The default is 'false'.
-
-| **automatedQA**
-| The default is 'false'.
+.. include:: descriptions/desc-owner.rst
 
 .. include:: descriptions/desc-state_target.rst
-
-| **autoPrune**
-| The default is 'false'.
-
-| **refCrawl**
-| The default is 'false'.

@@ -7,7 +7,7 @@ A list of profile overwrites containing the following information:
 **overwrites**
 --------------------------
 id      String    Required
-value   Dependent Required
+value   Dependent Optional
 unit    String    Optional
 enabled Boolean   Required
 ======= ========= ========

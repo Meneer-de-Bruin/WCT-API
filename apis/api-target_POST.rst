@@ -18,9 +18,142 @@ Header
 
 Body
 ----
-All required values, except for target-id and creationDate, must be given. If target-id or creationDate are given then these are ignored.
+============ ======= ========
+**Body**
+-----------------------------
+general      List    Required
+seeds        List    Optional
+profile      List    Optional
+schedule     List    Optional
+annotations  List    Optional
+description  List    Optional
+groups       List    Optional
+access       List    Optional
+============ ======= ========
 
-.. include:: descriptions/desc-target.rst
+-----------------
+**part: general**
+-----------------
+A list of general properties that belong to a target. This contains the following information:
+
+=================== ======= ========
+**general**
+------------------------------------
+name                String  Required
+description         String  Optional
+referenceNumber     String  Optional
+RunOnApproval       Boolean Optional
+automatedQA         Boolean Optional
+owner               String  Required
+state               Number  Required
+autoPrune           Boolean Optional
+referencdCrawl      Boolean Optional
+requestToArchivists String  Optional
+=================== ======= ========
+
+| **RunOnApproval**
+| The default is 'false'.
+
+| **automatedQA**
+| The default is 'false'.
+
+.. include:: descriptions/desc-state_target.rst
+
+| **autoPrune**
+| The default is 'false'.
+
+| **refCrawl**
+| The default is 'false'.
+
+---------------
+**part: seeds**
+---------------
+A list of seeds that belong to a target containing the following information:
+
+============== ======= ========
+**seeds**
+-------------------------------
+seed           URL     Required
+primary        Boolean Required
+authorisations List    Required
+============== ======= ========
+
+| **primary**
+| This indicates if a seed is the primary seed, or not. There can only be one primary seed. Default is 'false'.
+
+| **authorisations**
+| A list of identifiers of harvest authorisations. The harvest authorisation information itself can be retrivied with the API :doc:`api-harvest_authorisation_GET`.
+
+.. include:: descriptions/part-profile_target.rst
+
+.. include:: descriptions/desc-harvesterType.rst
+
+.. include:: descriptions/desc-overrides.rst
+
+| **profile**
+| Required when imported is 'true'. This then contains the imported profile as-is.
+
+------------------
+**Part: schedule**
+------------------
+Consists of the following information:
+
+=================== ======= ========
+**schedule**
+------------------------------------
+harvestOptimization Boolean Optional
+schedules           List    Optional
+=================== ======= ========
+
+| **schedules**
+| A list of schedules that belong to a target containing the following information:
+
+================= ====== ========
+**schedules**
+---------------------------------
+cron              String Required
+scheduleStartDate Date   Required
+scheduleEndDate   Date   Optional
+scheduleType      Number Required
+owner             String Required
+nextScheduleDate  Date   Required
+lastProcessedDate Date   Optional
+================= ====== ========
+
+.. include:: descriptions/desc-cron.rst
+
+.. include:: descriptions/desc-scheduleStartDate.rst
+
+.. include:: descriptions/desc-scheduleEndDate.rst
+
+.. include:: descriptions/desc-scheduleType.rst
+
+.. include:: descriptions/desc-owner.rst
+
+.. include:: descriptions/desc-nextScheduleDate.rst
+
+.. include:: descriptions/desc-lastProcessedDate.rst
+
+
+.. include:: descriptions/part-annotations_target.rst
+
+.. include:: descriptions/part-description_target.rst
+
+.. include:: descriptions/part-groups_target.rst
+
+----------------
+**Part: access**
+----------------
+A list of access properties that belong to a target. This contains the following information:
+
+=================== ======= ========
+**access**
+------------------------------------
+displayTarget       Boolean Required
+accessZone          Number  Required
+displayChangeReason String  Optional
+displayNote         String  Optional
+=================== ======= ========
 
 Response
 --------

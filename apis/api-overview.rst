@@ -35,6 +35,13 @@ Target Instances
    api-target_instances_GET
    api-target_instance_states_GET
 
+Group
+=====
+.. toctree::
+   :maxdepth: 1
+   
+   api-groups_GET.rst
+   
 User
 ====
 .. toctree::

@@ -21,7 +21,7 @@ cron              String Required
 scheduleStartDate Date   Required
 scheduleEndDate   Date   Optional
 scheduleType      Number Required
-userId            Number Required
+owner             String Required
 nextScheduleDate  Date   Required
 lastProcessedDate Date   Optional
 ================= ====== ========
@@ -34,7 +34,7 @@ lastProcessedDate Date   Optional
 
 .. include:: descriptions/desc-scheduleType.rst
 
-.. include:: descriptions/desc-userId.rst
+.. include:: descriptions/desc-owner.rst
 
 .. include:: descriptions/desc-nextScheduleDate.rst
 
