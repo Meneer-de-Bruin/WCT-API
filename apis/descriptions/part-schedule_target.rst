@@ -31,18 +31,18 @@ lastExecutionDate Date   Optional
 
 .. include:: descriptions/desc-cron.rst
 
-| ** startDate ** 
+| **startDate** 
 .. include:: descriptions/desc-formatDate.rst
 
-| ** endDate ** 
+| **endDate** 
 .. include:: descriptions/desc-formatDate.rst
 
 .. include:: descriptions/desc-scheduleType.rst
 
 .. include:: descriptions/desc-owner.rst
 
-| ** nextExecutionDate ** 
+| **nextExecutionDate** 
 .. include:: descriptions/desc-formatDate.rst
 
-| ** lastExecutionDate ** 
+| **lastExecutionDate** 
 .. include:: descriptions/desc-formatDate.rst

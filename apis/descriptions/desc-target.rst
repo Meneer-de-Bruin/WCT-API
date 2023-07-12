@@ -1,7 +1,7 @@
 ============ ======= ========
 **Body**
 -----------------------------
-general      List    Optional
+general      List    Required
 seeds        List    Optional
 profile      List    Optional
 schedule     List    Optional

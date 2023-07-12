@@ -22,7 +22,7 @@ Response
 --------
 200: OK
 
-No content (JSON or otherwide) is returned. The HTTP Header Location contains the URL to retrieve (GET) the inserted target
+No content (JSON or otherwise) is returned. The HTTP Header Location contains the URL to retrieve (GET) the inserted target
 as described in :doc:`api-target_GET`.
 
 Errors
