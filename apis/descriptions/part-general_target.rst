@@ -20,8 +20,28 @@ referencdCrawl      Boolean Required
 requestToArchivists String  Optional
 =================== ======= ========
 
-.. include:: desc-creationDate.rst
+| **id** 
+.. include:: descriptions/desc-systemGenerated.rst
 
-.. include:: desc-owner.rst
+| **creationDate**
+.. include:: descriptions/desc-formatDate.rst
 
-.. include:: desc-state_target.rst
+.. include:: descriptions/desc-systemGenerated.rst
+
+.. include:: descriptions/desc-owner.rst
+
+.. include:: descriptions/desc-state_target.rst
+
+| **RunOnApproval**
+| The default is 'false'.
+
+| **automatedQA**
+| The default is 'false'.
+
+.. include:: descriptions/desc-state_target.rst
+
+| **autoPrune**
+| The default is 'false'.
+
+| **refCrawl**
+| The default is 'false'.

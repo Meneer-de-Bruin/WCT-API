@@ -6,11 +6,14 @@ A list of seeds that belong to a target containing the following information:
 ============== ======= ========
 **seeds**
 -------------------------------
-seedId         Number  Required
+id             Number  Required
 seed           URL     Required
 primary        Boolean Required
 authorisations List    Required
 ============== ======= ========
+
+| **id**
+.. include:: descriptions/desc-systemGenerated.rst
 
 | **primary**
 | This indicates if a seed is the primary seed, or not. There can only be one primary seed. Default is 'false'.

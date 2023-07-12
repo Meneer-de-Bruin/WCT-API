@@ -33,16 +33,12 @@ Also the following parts can be updated separately by adding the part name to th
 | access      |
 +-------------+
 
-target-id and creationdate can never be updated. These are system generated.
-
 Header
 ------
 .. include:: descriptions/desc-header-authentication.rst
 
 Body
 ----
-All required values, except for target-id and creationDate, must be given. If target-id or creationDate are given then these are ignored.
-
 .. include:: descriptions/desc-target.rst
 
 Response
