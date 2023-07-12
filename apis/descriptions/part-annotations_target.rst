@@ -32,4 +32,4 @@ note String Optional
 .. include:: descriptions/desc-formatDate.rst
 
 | **type**
-| Contains one of the following: Area, Collection, Other collections, Producer type, Publication type
+| Contains one of the following: Area, Collection, Other collections, Producer type, Publication type.

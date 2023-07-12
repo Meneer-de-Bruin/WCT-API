@@ -20,8 +20,8 @@ referencdCrawl      Boolean Required
 requestToArchivists String  Optional
 =================== ======= ========
 
-.. include:: descriptions/desc-creationDate.rst
+.. include:: desc-creationDate.rst
 
-.. include:: descriptions/desc-owner.rst
+.. include:: desc-owner.rst
 
-.. include:: descriptions/desc-state_target.rst
+.. include:: desc-state_target.rst

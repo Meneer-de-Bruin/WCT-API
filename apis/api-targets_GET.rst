@@ -94,7 +94,8 @@ state        Number Required
 seeds        List   Required
 ============ ====== ========
 
-.. include:: descriptions/desc-creationDate.rst
+| **creationDate**
+.. include:: descriptions/desc-formatDate.rst
 
 .. include:: descriptions/desc-state_target.rst
 

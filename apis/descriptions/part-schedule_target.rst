@@ -26,20 +26,20 @@ nextExecutionDate Date   Required
 lastExecutionDate Date   Optional
 ================= ====== ========
 
-.. include:: descriptions/desc-cron.rst
+.. include:: desc-cron.rst
 
 | ** startDate ** 
-.. include:: descriptions/desc-formatDate.rst
+.. include:: desc-formatDate.rst
 
 | ** endDate ** 
-.. include:: descriptions/desc-formatDate.rst
+.. include:: desc-formatDate.rst
 
-.. include:: descriptions/desc-scheduleType.rst
+.. include:: desc-scheduleType.rst
 
-.. include:: descriptions/desc-owner.rst
+.. include:: desc-owner.rst
 
 | ** nextExecutionDate ** 
-.. include:: descriptions/desc-formatDate.rst
+.. include:: desc-formatDate.rst
 
 | ** lastExecutionDate ** 
-.. include:: descriptions/desc-formatDate.rst
+.. include:: desc-formatDate.rst

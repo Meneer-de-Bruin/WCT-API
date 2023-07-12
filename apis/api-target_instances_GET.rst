@@ -108,7 +108,8 @@ QARecommendation String Optional
 flag             Number Optional
 ================ ====== ========
 
-.. include:: descriptions/desc-harvestDate.rst
+| **harvestDate**
+.. include:: descriptions/desc-formatDate.rst
 
 .. include:: descriptions/desc-state_target_instance.rst
 
