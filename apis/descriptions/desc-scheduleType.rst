@@ -1,4 +1,4 @@
-| **scheduleType**
+| **type**
 | The schedule type of a target is an integer with the following values:
 
 ======== ======================

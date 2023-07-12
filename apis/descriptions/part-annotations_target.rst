@@ -6,10 +6,10 @@ A list of annotations properties that belong to a target. This contains the foll
 ============== ====== ========
 **annotations**
 ------------------------------ 
+selection      Part   Required
 evaluationNote String Optional
 harvestType    String Optional
 annotations    List   Optional
-selection      Part   Required
 ============== ====== ========
 
 | **harvestType**
@@ -29,7 +29,7 @@ note String Optional
 ==== ====== ========
 
 | **date**
-| This field has the format: YYYY-MM-DDTHH:MM:SS.S+HH:MM, E.g. 2020-09-24T10:31:33.000+00:00.
+.. include:: descriptions/desc-formatDate.rst
 
 | **type**
 | Contains one of the following: Area, Collection, Other collections, Producer type, Publication type

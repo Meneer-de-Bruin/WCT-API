@@ -55,3 +55,10 @@ Harvest Authorisations
    :maxdepth: 1
    
    api-harvest_authorisation_GET.rst
+   
+Profile
+=======
+.. toctree::
+   :maxdepth: 1
+   
+   api-profile_GET.rst

@@ -16,26 +16,30 @@ schedules           List    Optional
 ================= ====== ========
 **schedules**
 ---------------------------------
-scheduleId        Number Required
+id                Number Required
 cron              String Required
-scheduleStartDate Date   Required
-scheduleEndDate   Date   Optional
-scheduleType      Number Required
+startDate         Date   Required
+endDate           Date   Optional
+type              Number Required
 owner             String Required
-nextScheduleDate  Date   Required
-lastProcessedDate Date   Optional
+nextExecutionDate Date   Required
+lastExecutionDate Date   Optional
 ================= ====== ========
 
 .. include:: descriptions/desc-cron.rst
 
-.. include:: descriptions/desc-scheduleStartDate.rst
+| ** startDate ** 
+.. include:: descriptions/desc-formatDate.rst
 
-.. include:: descriptions/desc-scheduleEndDate.rst
+| ** endDate ** 
+.. include:: descriptions/desc-formatDate.rst
 
 .. include:: descriptions/desc-scheduleType.rst
 
 .. include:: descriptions/desc-owner.rst
 
-.. include:: descriptions/desc-nextScheduleDate.rst
+| ** nextExecutionDate ** 
+.. include:: descriptions/desc-formatDate.rst
 
-.. include:: descriptions/desc-lastProcessedDate.rst
+| ** lastExecutionDate ** 
+.. include:: descriptions/desc-formatDate.rst
