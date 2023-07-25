@@ -15,10 +15,8 @@ selection      List   Required
 | **harvestType**
 | Contains one of the following: Event, Subject, Team
 
----------------------
-**Part: annotations**
----------------------
-A list of annotations containing the following information:
+| ** annotations**
+| A list of annotations containing the following information:
 
 ===== ======= ========
 **annotations**
