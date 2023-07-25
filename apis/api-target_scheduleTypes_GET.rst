@@ -1,4 +1,4 @@
-Retrieve target schedule types (GET)
+Retrieve Target schedule types (GET)
 ====================================
 
 Returns a list of all the schedule types that a target can have, including the description of each specific schedule type.
