@@ -15,7 +15,7 @@ selection      List   Required
 | **harvestType**
 | Contains one of the following: Event, Subject, Team
 
-| ** annotations**
+| **annotations**
 | A list of annotations containing the following information:
 
 ===== ======= ========
@@ -50,28 +50,3 @@ note String Optional
 
 | **type**
 | Contains one of the following: Area, Collection, Other collections, Producer type, Publication type.
-
-
-    "annotations": { 
-        "selection": {
-            "date": "2023-05-17T13:37:13.919+00:00",
-            "note": null,
-            "type": "Producer type"
-        },
-        "annotations": [
-            {
-            "date": "2023-05-17T13:37:13.919+00:00",
-            "note": "Testannotatie no.1",
-            "user": "demo",
-            "alert": false
-            },
-            {
-            "date": "2023-06-17T13:37:13.919+00:00",
-            "note": "Testannotatie no.2",
-            "user": "demo",
-            "alert": true
-            }
-        ],
-        "evalutionNote": null,
-        "harvestType": "Subject"
-    },
