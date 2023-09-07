@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/targets/states <https://wct-api.readthedocs.io/en/latest/apis/api-target_states_GET.html>`_
+`https://--WCT_base--/api/v1/groups <https://wct-api.readthedocs.io/en/latest/apis/api-groups_GET.html>`_
 
 Header
 ------
@@ -69,7 +69,7 @@ groups     List   Optional
 | Number of total groups in the search result.  
 
 | **groups**
-| This is a list of found groups. It could be that no groups are returned.
+| This is a list of found groups. It could be that no groups are present. In that case an empty list is returned.
  
 The following information is returned per found group:
 
