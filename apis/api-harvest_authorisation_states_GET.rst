@@ -1,7 +1,7 @@
-Retrieve Target states (GET)
-============================
+Retrieve Harvest authorisation states (GET)
+===========================================
 
-Returns a list of all the states that a target can have, including the description of each specific state.
+Returns a list of all the states that a harvest authorisation can have, including the description of each specific state.
 
 Version
 -------
@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/targets/states <https://wct-api.readthedocs.io/en/latest/apis/api-target_states_GET.html>`_
+`https://--WCT_base--/api/v1/harvestauthorisations/states <https://wct-api.readthedocs.io/en/latest/apis/api-harvest_authorisation_states_GET.html>`_
 
 Header
 ------
