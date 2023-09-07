@@ -33,7 +33,7 @@ Harvest Authorisations
 .. toctree::
    :maxdepth: 1
    
-   api-harvest_authorisation_GET.rst
+   api-harvest_authorisations_GET.rst
    api-harvest_authorisation_states_GET.rst
    
 Profile
@@ -41,7 +41,7 @@ Profile
 .. toctree::
    :maxdepth: 1
    
-   api-profile_GET.rst
+   api-profiles_GET.rst
    
 Targets
 =======

@@ -1,4 +1,4 @@
-Retrieve Harvest authorisation states (GET)
+Retrieve Harvest Authorisation states (GET)
 ===========================================
 
 Returns a list of all the states that a harvest authorisation can have, including the description of each specific state.
