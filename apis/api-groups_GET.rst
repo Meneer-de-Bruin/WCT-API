@@ -1,7 +1,7 @@
 Retrieve Groups (GET)
 =====================
 
-Returns all groups with a subset of the available information based upon given filter and sorting.
+Returns all groups with a subset of the available information based upon given filter.
 
 Version
 -------
