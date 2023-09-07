@@ -34,6 +34,7 @@ Harvest Authorisations
    :maxdepth: 1
    
    api-harvest_authorisation_GET.rst
+   api-harvest_authorisation_states_GET.rst
    
 Profile
 =======
