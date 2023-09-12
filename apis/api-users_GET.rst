@@ -21,8 +21,6 @@ Body
 
 ====== ====== ========
 filter String Optional
-offset Number Optional
-limit  Number Optional
 ====== ====== ========
 
 | **filter**
@@ -32,10 +30,6 @@ limit  Number Optional
 
 | With each filter field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
 
-.. include:: descriptions/desc-request-offset.rst
-
-.. include:: descriptions/desc-request-limit.rst
-
 Response
 --------
 200: OK
@@ -44,14 +38,8 @@ Response
 **Body**
 --------------------------
 filter     String Optional
-offset     Number Optional
-limit	   Number Optional
-amount 	   Number Required
 users      List   Optional
 ========== ====== ========
-
-| **amount**
-| Number of total groups in the search result.  
 
 | **users**
 | This is a list of found users. It could be that no users are present. In that case an empty list is returned.
@@ -89,7 +77,7 @@ Example
   --location --request GET 'http://localhost/wct/api/v1/users' \
   --header 'Authorization: Bearer <token>' \
   --header 'Content-Type: application/json' \
-  --data '{"filter": {"agency": "KB" }, "limit": 5 }'
+  --data '{"filter": {"agency": "KB" } }'
  
  
  
