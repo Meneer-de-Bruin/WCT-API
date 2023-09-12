@@ -19,7 +19,7 @@ access       List    Optional
 
 .. include:: descriptions/part-schedule_target.rst
 
-.. include:: descriptions/part-annotations_target.rst
+.. include:: descriptions/part-annotations_target_response.rst
 
 .. include:: descriptions/part-description_target.rst
 
