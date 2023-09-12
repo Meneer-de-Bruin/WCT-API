@@ -85,7 +85,11 @@ Example
 -------
 .. code-block:: linux
 
-  TODO
+  curl \
+  --location --request GET 'http://localhost/wct/api/v1/users' \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '{"filter": {"agency": "KB" }, "limit": 5 }'
  
  
  

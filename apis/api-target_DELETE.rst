@@ -37,3 +37,13 @@ If any error is raised no output is returned. Nor is the target removed.
 403 Not authorized, user is no longer logged in.
 405 Method not allowed, only POST, GET, PUT, DELETE are allowed.
 === =======================================================================================
+
+Example
+-------
+.. code-block:: linux
+
+  curl \
+  --location --request DELETE 'http://localhost/wct/api/v1/targets/{target-id}' \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data ''

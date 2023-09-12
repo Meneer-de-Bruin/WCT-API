@@ -2,3 +2,6 @@ The body of the request contains the parameters voor the retrieval of the target
 ensure that the length of the GET URL does not exceed the maximum length. There is currently a proposal for a new 
 HTTP method (QUERY) do support exactly this use case. However it is still in draft and is therfor not yet implemented. 
 For more information on HTTP Query method see: `https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-03.html <https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-03.html>`_.
+
+Having said this not all libraries and platforms allow the GET method to have anything in the body. In these situations this API also
+supports the HTPP method PATCH.
