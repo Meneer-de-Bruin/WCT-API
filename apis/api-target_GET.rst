@@ -45,7 +45,7 @@ Response
 --------
 200: OK
 
-.. include:: descriptions/desc-target.rst
+.. include:: descriptions/desc-target_response.rst
 
 Errors
 ------

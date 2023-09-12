@@ -11,7 +11,7 @@ groups       List    Optional
 access       List    Optional
 ============ ======= ========
 
-.. include:: descriptions/part-general_target.rst
+.. include:: descriptions/part-general_target_request.rst
 
 .. include:: descriptions/part-seeds_target.rst
 

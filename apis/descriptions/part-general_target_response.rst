@@ -20,13 +20,8 @@ referencdCrawl      Boolean Required
 requestToArchivists String  Optional
 =================== ======= ========
 
-| **id** 
-.. include:: descriptions/desc-systemGenerated.rst
-
 | **creationDate**
 .. include:: descriptions/desc-formatDate.rst
-
-.. include:: descriptions/desc-systemGenerated.rst
 
 .. include:: descriptions/desc-owner.rst
 

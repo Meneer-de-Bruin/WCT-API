@@ -97,7 +97,7 @@ seeds        List   Required
 | **creationDate**
 .. include:: descriptions/desc-formatDate.rst
 
-.. include:: descriptions/desc-state_target.rst
+.. include:: descriptions/desc-state_target_response.rst
 
 | **seeds**
 | A list of seeds containing the following information:
