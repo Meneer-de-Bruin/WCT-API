@@ -66,10 +66,10 @@ Response
 ========== ====== ========
 **Body**
 --------------------------
-filter     String Required
-sortBy     String Required
-offset     Number Required
-limit	   Number Required
+filter     String Optional
+sortBy     String Optional
+offset     Number Optional
+limit	   Number Optional
 amount 	   Number Required
 targets    List   Optional
 ========== ====== ========

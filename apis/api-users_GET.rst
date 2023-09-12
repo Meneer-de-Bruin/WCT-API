@@ -43,9 +43,9 @@ Response
 ========== ====== ========
 **Body**
 --------------------------
-filter     String Required
-offset     Number Required
-limit	   Number Required
+filter     String Optional
+offset     Number Optional
+limit	   Number Optional
 amount 	   Number Required
 users      List   Optional
 ========== ====== ========
