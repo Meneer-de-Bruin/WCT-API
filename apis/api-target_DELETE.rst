@@ -24,11 +24,7 @@ Response
 --------
 200: OK
 
-============ ====== ========
-**Body**
-----------------------------
-target-id    Number Required
-============ ====== ========
+.. include:: descriptions/desc-response-body-empty.rst
 
 Errors
 ------

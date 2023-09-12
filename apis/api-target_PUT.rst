@@ -45,7 +45,7 @@ Response
 --------
 200: OK
 
-The updated target (or part therof) is returned as if the API :doc:`api-target_GET` had been used.
+.. include:: descriptions/desc-response-body-empty.rst
 
 Errors
 ------
