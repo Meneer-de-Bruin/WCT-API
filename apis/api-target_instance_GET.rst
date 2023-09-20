@@ -31,7 +31,6 @@ Also the following parts can be retrieved separately by adding the part name to 
 | display         |
 +-----------------+
 
-
 Header
 ------
 .. include:: descriptions/desc-header-authentication.rst
