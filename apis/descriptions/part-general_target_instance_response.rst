@@ -7,7 +7,7 @@ A list of general properties that belong to a target instance. This contains the
 **general**
 ------------------------------------
 id                  Number  Required
-name				String	Required
+name                String  Required
 scheduleStartDate   Date    Required
 actualStartDate     Date    Optional
 priority            String  Required

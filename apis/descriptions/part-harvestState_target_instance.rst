@@ -11,7 +11,7 @@ CaptureSystem  String Required
 HarvestServer  String Required
 Job            Number Required
 Status         String Required
-AvergagKB      Number Required
+AverageKB      Number Required
 AverageURI     Number Required
 URLSDownloaded Number Required
 URLSFailed     Number Required
@@ -19,5 +19,5 @@ DataDownloaded String Required
 ElapsedTime    Time   Required
 ============== ====== ========
 
-|**ElapsedTime**
+| **ElapsedTime**
 .. include:: descriptions/desc-formatTime.rst
