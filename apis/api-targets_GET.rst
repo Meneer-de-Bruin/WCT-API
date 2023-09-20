@@ -128,3 +128,12 @@ Example
   --header 'Authorization: Bearer <token>' \
   --header 'Content-Type: application/json' \
   --data '{"filter": {"states": [5], "agency": "KB" }, "limit": 5, "sortBy": "creationDate,asc" }'
+
+.. code-block:: linux
+
+  curl \
+  --location 'http://localhost/wct/api/v1/targets' \
+  --header 'X-HTTP-Method-Override: GET' \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '{"filter": {"states": [5], "agency": "KB" }, "limit": 5, "sortBy": "creationDate,asc" }'
