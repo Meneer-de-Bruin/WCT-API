@@ -1,7 +1,7 @@
-Retrieve Users (GET)
+Retrieve Flags (GET)
 ====================
 
-Returns all users with a subset of the available information based upon given filter and sorting.
+Returns all flags with a subset of the available information based upon given filter and sorting.
 
 Version
 -------
@@ -38,26 +38,24 @@ Response
 **Body**
 --------------------------
 filter     String Optional
-users      List   Optional
+flags      List   Optional
 ========== ====== ========
 
-| **users**
-| This is a list of found users. It could be that no users are present. In that case an empty list is returned.
+| **flags**
+| This is a list of found flags. It could be that no flags are present. In that case an empty list is returned.
  
-The following information is returned per found user:
+The following information is returned per found flag:
 
 ============ ====== ========
 **Body**
 ----------------------------
-userId       Number Required
-userName     String Required
-firstName    String Required
-lastName     String Required
-email        String Required
+flagId       Number Required
+flagName     String Required
+RGB          String Required
 agency       String Required
 ============ ====== ========
 
-.. include:: descriptions/desc-userId.rst
+.. include:: descriptions/desc-flagId.rst
 
 Errors
 ------
@@ -72,12 +70,8 @@ If any error is raised no output is returned.
 Example
 -------
 .. code-block:: linux
-
-  curl \
-  --location --request GET 'http://localhost/wct/api/v1/users' \
-  --header 'Authorization: Bearer <token>' \
-  --header 'Content-Type: application/json' \
-  --data '{"filter": {"agency": "KB" } }'
+  
+  <TODO>
  
  
  

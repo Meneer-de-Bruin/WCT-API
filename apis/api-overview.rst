@@ -21,6 +21,13 @@ Authentication
    api-authentication_POST
    api-authentication_DELETE
 
+Flag
+====
+.. toctree::
+   :maxdepth: 1
+   
+   api-flags_GET.rst
+
 Group
 =====
 .. toctree::
@@ -62,6 +69,7 @@ Target Instances
    :maxdepth: 1
 
    api-target_instances_GET
+   api-target_instance_GET
    api-target_instance_states_GET
    
 User
