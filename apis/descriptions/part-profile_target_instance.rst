@@ -1,7 +1,7 @@
 -----------------
 **part: profile**
 -----------------
-A list of profile properties that belong to a target instnace. This contains the following information:
+A list of profile properties that belong to a target instanace. This contains the following information:
 
 =============== ======= ========
 **profile**
