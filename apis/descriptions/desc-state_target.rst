@@ -13,4 +13,4 @@
   7       Completed
 ========= ===============
 
-The list of possible state values for targets can be retrieved with API :doc:`api-target_states_GET`_.
+The list of possible state values for targets can be retrieved with API :doc:`api-target_states_GET`.

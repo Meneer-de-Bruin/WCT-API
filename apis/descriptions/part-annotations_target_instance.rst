@@ -3,10 +3,15 @@
 ---------------------
 A list of annotations that belong to a target instance. This contains the following information:
 
-======== ====== ========
+============ ======= ========
 **annotations**
-------------------------
-logfile  String Required
-location String Required
-size     String Required
-======== ====== ========
+-----------------------------
+Id           Number  Required
+CreationDate Date    Required
+User         String  Required
+Annotation   String  Required
+Alert        Boolean Required
+============ ======= ========
+
+| **creationDate**
+.. include:: descriptions/desc-formatDate.rst

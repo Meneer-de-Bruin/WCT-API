@@ -30,7 +30,7 @@ states List Required
 ====== ==== ========
 
 | **states**
-| Is a list of all the states that a target can have, including the description of each specific state.
+| Is a list of all the states that a harvest result can have, including the description of each specific state.
 
 .. include:: descriptions/desc-state_harvest_result.rst
 
