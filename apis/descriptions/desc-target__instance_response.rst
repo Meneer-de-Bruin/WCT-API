@@ -17,3 +17,9 @@ display          List    Optional
 .. include:: descriptions/part-harvestState_target_instance.rst
 
 .. include:: descriptions/part-logs_target_instance.rst
+
+.. include:: descriptions/part-harvestResults_target_instance.rst
+
+.. include:: descriptions/part-annotations_target_instance.rst
+
+.. include:: descriptions/part-display_target_instance.rst`
