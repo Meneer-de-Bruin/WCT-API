@@ -70,6 +70,8 @@ Target Instances
 
    api-target_instances_GET
    api-target_instance_GET
+   api-target_instance_PUT
+   api-target_instance_DELETE
    api-target_instance_states_GET
    api-harvest_result_states_GET
    

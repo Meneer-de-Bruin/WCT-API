@@ -7,5 +7,6 @@ The display properties that belong to a target instance. This contains the follo
 **display**
 ----------------------------
 display     Boolean Required
+reason		String	Optional
 displayNote String  Optional
 =========== ======= ========

@@ -1,4 +1,4 @@
-Retrieve Harvest result states (GET)
+Retrieve Harvest Result States (GET)
 ====================================
 
 Returns a list of all the states that a harvest result can have, including the description of each specific state.
