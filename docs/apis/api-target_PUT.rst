@@ -11,7 +11,9 @@ Request
 `https://--WCT_base--/api/v1/targets/{target-id} <https://wct-api.readthedocs.io/en/latest/apis/api-target_PUT.html>`_
 
 Also the following parts can be updated separately by adding the part name to the request query, e.g.
-`https://--WCT_base--/api/v1/target/{target-id}/{part}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_PUT.html>`_
+`https://--WCT_base--/api/v1/target/{target-id}/{part}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_PUT.html>`_. Each part must contain at least one field that needs updating. Only the fields given are updated, fields not given, but present in the database, remain unchanged.
+
+Fields of mutable lists (seeds, schedule.schedules, annotations.annotations, groups) can not be updated individually: if a list is present in the input, the corresponding list attribute of the target will be overwritten with the new list. Fields of profile.overrides, which is a fixed list, can be updated individually.
 
 +-------------+
 | **part**    |
