@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'WCT-API'
-copyright = str(datetime.now().year)+', Web Curator Tool project contributors'
+copyright = '2023, Web Curator Tool project contributors'
 author = 'Rob de Bruin'
 
 version = 'latest'
