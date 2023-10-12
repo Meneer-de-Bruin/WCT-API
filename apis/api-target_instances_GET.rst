@@ -34,16 +34,18 @@ limit  Number Optional
 * agency [exact match only]
 * userId [exact match only]
 * name [contains text]
-* flag [exact match only]
+* flagId [exact match only]
 * nonDisplayOnly [Boolean]
 * state [List of integers, exact match only]
-* QARecommendation [List of integers, exact match only]
+* qaRecommendation [List of strings, exact match only]
 
 | Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
 |
 | With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
 
 .. include:: descriptions/desc-userId.rst
+
+.. include:: descriptions/desc-flagId.rst
 
 .. include:: descriptions/desc-state_target_instance.rst
 
@@ -57,8 +59,8 @@ limit  Number Optional
 | * harvestDate
 | * runtime
 | * dataDownloaded
-| * AmountURLs
-| * pFailed
+| * AmountUrls
+| * percentageFailed 
 | * AmountCrawls
 
 Only one sort field may be given as input. If multiple sort fields are given then this will result in an error. Example: sortBy=Name,asc
@@ -93,7 +95,7 @@ The following information is returned per found target instance:
 ================ ====== ========
 **Body**
 --------------------------------
-instanceId       Number Required
+id               Number Required
 thumbnail        Image  Optional
 harvestDate      Date   Required 
 name             String Required
@@ -101,11 +103,11 @@ owner            String Required
 state            Number Required
 runtime          Time   Optional
 dataDownloaded   Number Optional
-AmountURLs       Number Optional
-pFailed          Number Optional
+AmountUrls       Number Optional
+percentageFailed Number Optional
 AmountCrawls     Number Optional
-QARecommendation String Optional
-flag             Number Optional
+qaRecommendation String Optional
+flagId           Number Optional
 ================ ====== ========
 
 | **harvestDate**
@@ -114,6 +116,8 @@ flag             Number Optional
 .. include:: descriptions/desc-owner.rst
 
 .. include:: descriptions/desc-state_target_instance.rst
+
+.. include:: descriptions/desc-flagId.rst
 
 Errors
 ------

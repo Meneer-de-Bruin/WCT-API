@@ -49,7 +49,7 @@ The following information is returned per found flag:
 ============ ====== ========
 **Body**
 ----------------------------
-flagId       Number Required
+id           Number Required
 flagName     String Required
 RGB          String Required
 agency       String Required
