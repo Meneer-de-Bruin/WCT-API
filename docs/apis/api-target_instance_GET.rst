@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target_instances/{target-instance-id} <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_GET.html>`_
+`https://--WCT_base--/api/v1/target-instances/{target-instance-id} <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_GET.html>`_
 
 Also the following parts can be retrieved separately by adding the part name to the request query, e.g.
 `https://--WCT_base--/api/v1/target_instances/{target-instance-id}/{part}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_GET.html>`_
