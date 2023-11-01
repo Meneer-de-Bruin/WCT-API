@@ -1,5 +1,5 @@
 ------------------
-**Part: schedule**
+**part: schedule**
 ------------------
 Consists of the following information:
 

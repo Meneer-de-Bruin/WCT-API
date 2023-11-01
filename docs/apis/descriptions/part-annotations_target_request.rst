@@ -1,5 +1,5 @@
 ---------------------
-**Part: annotations**
+**part: annotations**
 ---------------------
 A list of annotations properties that belong to a target. This contains the following information:
 
@@ -26,7 +26,7 @@ alert Boolean Required
 ===== ======= ========
 			
 ---------------------
-**Part: selection**
+**part: selection**
 ---------------------
 Contains the following information:
 
