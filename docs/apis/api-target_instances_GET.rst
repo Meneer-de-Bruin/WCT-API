@@ -100,6 +100,7 @@ thumbnail        Image  Optional
 harvestDate      Date   Required 
 name             String Required
 owner            String Required
+agency           String Optional
 state            Number Required
 runtime          Time   Optional
 dataDownloaded   Number Optional
@@ -133,4 +134,8 @@ Example
 -------
 .. code-block:: linux
 
-  <TODO>
+  curl \
+  --location --request GET 'http://kb006561i.clients.wpakb.kb.nl:8080/wct/api/v1/target-instances' \
+  --header 'Content-Type: application/json' \
+  --header 'Authorization: Bearer FRnUvdZxlJcmvAoLXSqyzUbTW3qQPGhKN7M0nepKH9ZBcRkka1meaA5yxVMMK1T4' \
+  --data '{ "filter": { "nonDisplayOnly": false, "states": [5] }, "limit": 5 }'
