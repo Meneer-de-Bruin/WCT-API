@@ -29,7 +29,7 @@ limit  Number Optional
 | **filter**
 | Name of field upon which the result set must be filtered. Only filterable fields maybe given, others are ignored. Filterable fields are:
 
-* harvestAuthorisationId [exact match only]
+* id [exact match only]
 * name [contains text]
 * authorisingAgent [contains text]
 * orderNo [exact match]
@@ -37,7 +37,7 @@ limit  Number Optional
 * showDisabled [boolean]
 * URLpattern [contains text]
 * permissionsFilereference [contains text]
-* permissionState [List of integers, exact match only]
+* permissionStates [List of integers, exact match only]
 
 | Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
 |
@@ -66,6 +66,7 @@ Response
 **Body**
 -------------------------------------
 filter                String Required
+sortBy                String Optional
 offset                Number Required
 limit	              Number Required
 amount 	              Number Required
@@ -83,13 +84,16 @@ The following information is returned per found harvest authorisation:
 ======================= ====== ========
 **Body**
 ---------------------------------------
-harvestAuthorisationsId Number Required
+id                      Number Required
 creationDate            Date   Required
 name                    String Required
-authorisingAgent        String Optional
-orderNumber             Number Optional
+authorisingAgents       List   Optional
+orderNo                 String Optional
 permissionStates        List   Optional
 ======================= ====== ========
+
+| **authorisingAgents**
+| List of of id's of authorising agents. 
 
 | **permissionStates**
 | List of permission states as given to the permissons in the harvest authorisation.
