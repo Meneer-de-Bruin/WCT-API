@@ -1,4 +1,4 @@
-Retrieve Harvest Authorisation (GET)
+Retrieve Harvest Authorisations (GET)
 ====================================
 
 Returns all harvest authorisations with a subset of the available information based upon given filter and sorting.
@@ -93,7 +93,7 @@ permissionStates        List   Optional
 ======================= ====== ========
 
 | **authorisingAgents**
-| List of of id's of authorising agents. 
+| List of of id's of authorising agents. The list of all agencies can be retrieved with API :doc: `api-agencies_GET.rst`.
 
 | **permissionStates**
 | List of permission states as given to the permissons in the harvest authorisation.

@@ -37,7 +37,7 @@ The following information is returned per found group:
 ============ ====== ========
 **Body**
 ----------------------------
-agencyId     Number Required
+id           Number Required
 name         String Required
 address      String Required
 ============ ====== ========
