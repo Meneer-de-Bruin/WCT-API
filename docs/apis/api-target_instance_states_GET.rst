@@ -48,5 +48,8 @@ Example
 -------
 .. code-block:: linux
 
-  <TODO>
+  curl \
+  --location 'http://localhost/wct/api/v1/target-instances/states' \
+  --header 'Authorization: Bearer <token>' \
+  --data ''
  
