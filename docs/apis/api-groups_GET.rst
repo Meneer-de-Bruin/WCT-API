@@ -35,6 +35,7 @@ limit  Number Optional
 * memberOf [contains text]
 * type [contains text]
 * nonDisplayOnly [Boolean]
+* state [List of integers, exact match only]
 
 | Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
 |
@@ -47,6 +48,8 @@ limit  Number Optional
 .. include:: descriptions/desc-request-offset.rst
 
 .. include:: descriptions/desc-request-limit.rst
+
+.. include:: descriptions/desc-state_group.rst
 
 Response
 --------
@@ -78,10 +81,12 @@ name         String Required
 type         String Required
 agency       String Required
 owner        String Required
-status       String Required
+state        Number Required
 ============ ====== ========
 
 .. include:: descriptions/desc-owner.rst
+
+.. include:: descriptions/desc-state_group.rst
 
 Errors
 ------
