@@ -48,5 +48,7 @@ Example
 -------
 .. code-block:: linux
 
-  TODO
+  curl \
+  --location 'http://localhost/wct/api/v1/harvest-authorisations/states' \
+  --header 'Authorization: Bearer <token>'
  

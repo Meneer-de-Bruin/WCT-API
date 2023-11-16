@@ -46,4 +46,8 @@ If any error is raised no output is returned.
 
 Example
 -------
-<TODO> 
+.. code-block:: linux
+
+  curl \
+  --location 'http://localhost/wct/api/v1/group/states' \
+  --header 'Authorization: Bearer <token>'
