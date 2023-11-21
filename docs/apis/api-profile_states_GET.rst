@@ -48,5 +48,5 @@ Example
 -------
 .. code-block:: linux
 
-  <todo>
+  TODO
  
