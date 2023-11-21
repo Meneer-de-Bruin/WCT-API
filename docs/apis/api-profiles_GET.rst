@@ -35,7 +35,7 @@ filter String Optional
 | With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
 
 | **showOnlyActive**
-| When this field has the value 'true' only profiles withe a state of 1 [active] are shown. When the value of this field is 'false' all profiles are shown irrespective of the state value. 
+| When this field has the value 'true' only profiles with a state of 1 [active] are shown. When the value of this field is 'false' all profiles are shown irrespective of the state value. 
 
 | **type**
 | There are only two types:
