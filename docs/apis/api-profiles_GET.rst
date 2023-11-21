@@ -26,15 +26,18 @@ filter String Optional
 | **filter**
 | Name of field upon which the result set must be filtered. Only filterable fields maybe given, others are ignored. Filterable fields are:
 
-* status [Boolean]
+* showOnlyActive [Boolean] (default: true)
 * agency [contains text]
-* profileType [contains text]
-
+* type [contains text]
+		
 | Multiple filter fields may be given, but each field only once. If a filter field is given multiple times this will result in an error.
 |
 | With each field (key) a value must be given which is used to filter. The filter only shows those results that match or contains the given value in the given field. All given characters are used, there are no wild cards.
 
-| **profileType**
+! **showOnlyActive**
+! 
+
+| **type**
 | There are only two types:
 
 * HERITRIX1
@@ -58,23 +61,26 @@ The following information is returned per found profile:
 
 ============ ======= ========
 **Body**
-----------------------------
+-----------------------------
+id           Number  Required
 name         String  Required
 default      Boolean Required
 description  String  Optional
-profileType  String  Required
-status       Boolean Required
+type         String  Required
+state        Number  Required
 agency       String  Required
-============ ====== ========
+============ ======= ========
 
 | **default**
-| Per profileType only 1 profile with default=True is allowed.
+| Per type only 1 profile with default=True is allowed.
 
-| **profileType**
+| **type**
 | There are only two types:
 
 * HERITRIX1
 * HERITRIX3 (default)
+
+.. include:: descriptions/desc-state_profile.rst
 
 Errors
 ------
@@ -90,7 +96,10 @@ Example
 -------
 .. code-block:: linux
 
-  TODO
+    curl \
+  --location 'http://localhost/wct/api/v1/profiles' \
+  --header 'Authorization: Bearer <token>' \
+  --data '{"filter": { "showOnlyActive": "false" } }'
  
  
  
