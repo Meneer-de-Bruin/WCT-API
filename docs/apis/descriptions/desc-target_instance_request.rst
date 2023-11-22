@@ -37,6 +37,8 @@ state           Number Required
 
 .. include:: descriptions/desc-state_harvest_result.rst
 
+When updating the field 'state' may only contain the values '1' or '2'. All other values are system set.
+
 ---------------------
 **part: annotations**
 ---------------------

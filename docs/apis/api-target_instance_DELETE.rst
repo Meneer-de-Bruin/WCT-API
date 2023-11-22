@@ -1,8 +1,8 @@
 Delete Target instance (DELETE)
-======================
-Deletes a specific target instance. This is only possible if the status of the target instnace is 'Scheduled', 'Aborted' or 'Rejected'. After a delete the target instance will have been completly removed from the WCT database.
+===============================
+Deletes a specific target instance. This is only possible if the status of the target instance is 'Scheduled', 'Aborted' or 'Rejected'. After a delete the target instance will have been completly removed from the WCT database.
 
-If the target instance must be set to 'Rejected' the API :doc:`api-target_instnaces_PUT` must be used.
+If the target instance must be set to 'Rejected' the API :doc:`api-target_instance_PUT` must be used.
 
 Version
 -------
