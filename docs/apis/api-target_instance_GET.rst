@@ -20,11 +20,11 @@ Also the following parts can be retrieved separately by adding the part name to 
 +-----------------+
 | profile         |
 +-----------------+
-| harvest state   |
+| harvest-state   |
 +-----------------+
 | logs            |
 +-----------------+
-| harvest results |
+| harvest-results |
 +-----------------+
 | annotations     |
 +-----------------+
@@ -59,4 +59,6 @@ Example
 -------
 .. code-block:: linux
 
-  <TODO>
+  curl \
+  --location 'http://localhost/wct/api/v1/target-instances/<target-instance-id>' \
+  --header 'Authorization: Bearer <token>'

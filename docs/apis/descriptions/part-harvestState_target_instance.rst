@@ -3,21 +3,21 @@
 -----------------------
 A list of harvest state properties that belong to a target instanace. This contains the following information:
 
-============== ====== ========
+==================== ====== ========
 **harvest state**
-------------------------------
-WCTVersion     String Required
-CaptureSystem  String Required
-HarvestServer  String Required
-Job            Number Required
-Status         String Required
-AverageKB      Number Required
-AverageURI     Number Required
-URLSDownloaded Number Required
-URLSFailed     Number Required
-DataDownloaded String Required
-ElapsedTime    Time   Required
-============== ====== ========
+------------------------------------
+wctVersion           String Required
+captureSystem        String Required
+harvestServer        String Required
+job                  Number Required
+status               String Required
+averageKbsPerSecond  Number Required
+averageUrisPerSecond Number Required
+urlsDownloaded       Number Required
+urlsFailed           Number Required
+dataDownloaded       String Required
+elapsedTime          Time   Required
+==================== ====== ========
 
 | **ElapsedTime**
 .. include:: descriptions/desc-formatTime.rst

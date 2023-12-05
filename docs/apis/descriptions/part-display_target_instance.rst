@@ -3,10 +3,10 @@
 -----------------
 The display properties that belong to a target instance. This contains the following information:
 
-=========== ======= ========
+===================== ======= ========
 **display**
-----------------------------
-display     Boolean Required
-reason		String	Optional
-displayNote String  Optional
-=========== ======= ========
+--------------------------------------
+displayTargetInstance Boolean Required
+displayChangeReason   String  Optional
+displayNote           String  Optional
+===================== ======= ========

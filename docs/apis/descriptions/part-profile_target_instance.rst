@@ -8,10 +8,9 @@ A list of profile properties that belong to a target instanace. This contains th
 --------------------------------
 id              Number  Required
 imported        Boolean Required
-harvesterType   Number  Required
+harvesterType   String  Required
 name            String  Required
 overrides       List    Optional
-profile         String  Optional
 =============== ======= ========
 
 | **id**

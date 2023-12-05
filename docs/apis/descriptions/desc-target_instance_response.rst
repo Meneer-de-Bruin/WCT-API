@@ -3,9 +3,9 @@
 ---------------------------------
 general          List    Required
 profile          List    Optional
-harvest state    List    Optional
+harvestState     List    Optional
 logs             List    Optional
-harvest results  List    Optional
+harvestResults   List    Optional
 annotations      List    Optional
 display          List    Optional
 ================ ======= ========

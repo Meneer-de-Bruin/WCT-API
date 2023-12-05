@@ -6,8 +6,8 @@ A list of harvest results that belong to a target instance. This contains the fo
 =============== ====== ========
 **harvest results**
 -------------------------------
-HarvestResultId Number Required
-no              Number Required
+id              Number Required
+number          Number Required
 creationDate    Date   Required
 derivedFrom     Number Required
 owner           String Required
