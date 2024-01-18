@@ -28,6 +28,7 @@ limit  Number Optional
 | **filter**
 | Name of field upon which the result set must be filtered. Only filterable fields maybe given, others are ignored. Filterable fields are:
 
+* targetId (exact match only)
 * targetInstanceId [exact match only]
 * from [harvestDate is larger or equal to this date]
 * to [harvestDate is smaller or equal to this date]

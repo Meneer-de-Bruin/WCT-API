@@ -13,18 +13,19 @@ schedules           List    Optional
 | **schedules**
 | A list of schedules that belong to a target containing the following information:
 
-================= ====== ========
+================= ======= ========
 **schedules**
----------------------------------
-id                Number Required
-cron              String Required
-startDate         Date   Required
-endDate           Date   Optional
-type              Number Required
-owner             String Required
-nextExecutionDate Date   Required
-lastExecutionDate Date   Optional
-================= ====== ========
+----------------------------------
+id                Number  Required
+cron              String  Required
+startDate         Date    Required
+endDate           Date    Optional
+type              Number  Required
+owner             String  Required
+nextExecutionDate Date    Required
+lastExecutionDate Date    Optional
+harvestNow        Boolean Optional
+================= ======= ========
 
 | **id**
 .. include:: descriptions/desc-systemGenerated.rst
