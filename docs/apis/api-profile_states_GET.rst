@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/harvest-authorisations/states <https://wct-api.readthedocs.io/en/latest/apis/api-harvest_authorisation_states_GET.html>`_
+`https://--WCT_base--/api/v1/profiles/states <https://wct-api.readthedocs.io/en/latest/apis/api-profile_states_GET.html>`_
 
 Header
 ------
@@ -48,5 +48,9 @@ Example
 -------
 .. code-block:: linux
 
-  TODO
+  curl \
+  --location --request GET 'http://kb006561i.clients.wpakb.kb.nl:8080/wct/api/v1/profiles/states' \
+  --header 'Content-Type: application/json' \
+  --header 'Authorization: Bearer <token>' \
+  --data ''
  

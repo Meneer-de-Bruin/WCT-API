@@ -12,6 +12,11 @@ Request
 -------
 `https://--WCT_base--/api/v1/target_instances/{target_instance-id} <https://wct-api.readthedocs.io/en/latest/apis/api-target_instances_PUT.html>`_
 
+Also the following parts can be updated separately by adding the part name to the request query, e.g.
+`https://--WCT_base--/api/v1/target_instances/{target_instance-id}/{part} <https://wct-api.readthedocs.io/en/latest/apis/api-target_instances_PUT.html>`_. Each part must contain at least one field that needs updating. Only the fields given are updated, fields not given, but present in the database, remain unchanged.
+
+Fields of mutable lists (annotations.annotations) can not be updated individually: if a list is present in the input, the corresponding list attribute of the target will be overwritten with the new list. Fields of profile.overrides, which is a fixed list, can be updated individually.
+
 Header
 ------
 .. include:: descriptions/desc-header-authentication.rst

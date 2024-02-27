@@ -50,8 +50,8 @@ The following information is returned per found flag:
 **Body**
 ----------------------------
 id           Number Required
-flagName     String Required
-RGB          String Required
+name         String Required
+rgb          String Required
 agency       String Required
 ============ ====== ========
 
@@ -70,8 +70,11 @@ If any error is raised no output is returned.
 Example
 -------
 .. code-block:: linux
-  
-  <TODO>
+  curl \
+  --location --request GET 'http://kb006561i.clients.wpakb.kb.nl:8080/wct/api/v1/flags' \
+  --header 'Content-Type: application/json' \
+  --header 'Authorization: Bearer <token>' \
+  --data ''
  
  
  
