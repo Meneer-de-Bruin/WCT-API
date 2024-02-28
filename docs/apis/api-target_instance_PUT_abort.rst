@@ -1,6 +1,6 @@
-Pause Target Instance (PUT)
+Abort Target Instance (PUT)
 ===========================
-Pauses a running target instance.
+Aborts a running target instance.
 
 Version
 -------
@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/pause <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_PUT_pause.html>`_
+`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/abort <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_PUT_abort.html>`_
 
 Header
 ------
@@ -37,5 +37,5 @@ Example
 .. code-block:: linux
 
   curl \
-  --location 'http://localhost/wct/api/v1/target-instances/<target-instance-id>/pause' \
+  --location 'http://localhost/wct/api/v1/target-instances/<target-instance-id>/abort' \
   --header 'Authorization: Bearer <token>'
