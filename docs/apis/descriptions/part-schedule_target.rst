@@ -7,6 +7,7 @@ Consists of the following information:
 **schedule**
 ------------------------------------
 harvestOptimization Boolean Optional
+harvestNow          Boolean Optional
 schedules           List    Optional
 =================== ======= ========
 
@@ -24,7 +25,6 @@ type              Number  Required
 owner             String  Required
 nextExecutionDate Date    Required
 lastExecutionDate Date    Optional
-harvestNow        Boolean Optional
 ================= ======= ========
 
 | **id**

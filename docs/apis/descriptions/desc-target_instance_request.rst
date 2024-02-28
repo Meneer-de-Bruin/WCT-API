@@ -39,23 +39,9 @@ state           Number Required
 
 When updating the field 'state' may only contain the values '1' or '2'. All other values are system set.
 
----------------------
-**part: annotations**
----------------------
-A list of annotations that belong to a target instance. This contains the following information:
-
-============ ======= ========
-**annotations**
------------------------------
-Id           Number  Optional
-Annotation   String  Required
-Alert        Boolean Required
-============ ======= ========
+.. include:: descriptions/part-annotations_target_instance.rst
 
 | **Id**
 Must be given when updating an existing annotation. If adding an annotaion it can be left empty.
-
-| **creationDate**
-.. include:: descriptions/desc-formatDate.rst
 
 .. include:: descriptions/part-display_target_instance.rst
