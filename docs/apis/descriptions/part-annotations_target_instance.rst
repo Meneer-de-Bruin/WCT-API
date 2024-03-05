@@ -6,11 +6,10 @@ A list of annotations that belong to a target instance. This contains the follow
 ============ ======= ========
 **annotations**
 -----------------------------
-Id           Number  Required
-CreationDate Date    Required
-User         String  Required
-Annotation   String  Required
-Alert        Boolean Required
+date         Date    Required
+user         String  Required
+note         String  Required
+alert        Boolean Required
 ============ ======= ========
 
 | **creationDate**

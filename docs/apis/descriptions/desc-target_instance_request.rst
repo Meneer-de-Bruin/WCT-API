@@ -41,7 +41,4 @@ When updating the field 'state' may only contain the values '1' or '2'. All othe
 
 .. include:: descriptions/part-annotations_target_instance.rst
 
-| **Id**
-Must be given when updating an existing annotation. If adding an annotaion it can be left empty.
-
 .. include:: descriptions/part-display_target_instance.rst
