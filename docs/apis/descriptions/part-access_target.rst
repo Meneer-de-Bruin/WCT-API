@@ -8,7 +8,7 @@ A list of access properties that belong to a target. This contains the following
 ------------------------------------
 displayTarget       Boolean Required
 accessZone          Number  Required
-accessZoneText      String  Optional
+accessZoneText      String  Required
 displayChangeReason String  Optional
 displayNote         String  Optional
 =================== ======= ========
@@ -26,7 +26,5 @@ displayNote         String  Optional
 
 | **accessZoneText**
 | Contains one of the following: Public, Onsite, Restricted, based upon the integer in accessZone.
-
-When updating only the accessZone is taken into account. 
 
 .. include:: descriptions/desc-systemGenerated.rst
