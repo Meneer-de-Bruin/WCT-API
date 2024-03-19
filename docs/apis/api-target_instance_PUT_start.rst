@@ -1,5 +1,5 @@
-Start harvest Target Instance (PUT)
-===================================
+Start Target Instance (PUT)
+===========================
 Start harvest of a target instance immediately.
 
 Version
@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/start_now <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_PUT_start.html>`_
+`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/start <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_PUT_start.html>`_
 
 Header
 ------
