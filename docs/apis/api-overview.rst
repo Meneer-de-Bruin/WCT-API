@@ -36,12 +36,12 @@ Group
    api-groups_GET.rst
    api-group_states_GET.rst
 
-Harvest Agencies
-================
+Harvest Agents
+==============
 .. toctree::
    :maxdepth: 1
    
-   api-harvest-agencies_GET.rst
+   api-harvest-agents_GET.rst
    
 Harvest Authorisations
 ======================
@@ -81,8 +81,8 @@ Target Instances
    api-target_instance_GET
    api-target_instance_PUT
    api-target_instance_PUT_abort
-   api-target_instance_PUT_harvest_now
    api-target_instance_PUT_pause
+   api-target_instance_PUT_start
    api-target_instance_PUT_stop
    api-target_instance_DELETE
    api-target_instance_states_GET

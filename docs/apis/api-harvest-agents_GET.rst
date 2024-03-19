@@ -1,7 +1,7 @@
-Retrieve Harvest Agencies (GET)
+Retrieve Harvest Agents (GET)
 ===============================
 
-Returns a list of all the harvest agencies.
+Returns a list of all the harvest agents.
 
 Version
 -------
@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/harvest-agencies <https://wct-api.readthedocs.io/en/latest/apis/api-harvest-agencies_GET.html>`_
+`https://--WCT_base--/api/v1/harvest-agents <https://wct-api.readthedocs.io/en/latest/apis/api-harvest-agents_GET.html>`_
 
 Header
 ------
@@ -23,16 +23,16 @@ Response
 --------
 200: OK
 
-================ ==== ========
+============== ==== ========
 **Body**
-------------------------------
-harvest-agencies List Optional
-================ ==== ========
+----------------------------
+harvest-agents List Optional
+============== ==== ========
 
-| **harvest agencies**
-| This is a list of found harvest agencies.
+| **harvest agents**
+| This is a list of found harvest agents.
  
-The following information is returned per found harvest agency:
+The following information is returned per found harvest agent:
 
 ================ ====== ========
 **Body**
