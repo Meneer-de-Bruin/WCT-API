@@ -32,7 +32,7 @@ agencies List Optional
 | **agencies**
 | This is a list of found agencies. It could be that no agencies are present. In that case an empty list is returned.
  
-The following information is returned per found group:
+The following information is returned per found agency:
 
 ============ ====== ========
 **Body**
