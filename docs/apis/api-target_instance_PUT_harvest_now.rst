@@ -16,7 +16,17 @@ Header
 
 Body
 ----
-.. include:: descriptions/desc-request-body-empty.rst
+
+================ ====== ========
+**Body**
+--------------------------------
+harvestAgentName String Required
+================ ====== ========
+
+| **harvestAgentName**
+| Name of valid harvest agent as defined in application.properties.
+
+The list of possible harvest agent name values can be retrieved with API :doc:`api-harvest-agencies_GET`.
 
 Response
 --------
@@ -36,6 +46,7 @@ Example
 -------
 .. code-block:: linux
 
+  <TODO>
   curl \
   --location 'http://localhost/wct/api/v1/target-instances/<target-instance-id>/harvest_now' \
   --header 'Authorization: Bearer <token>'

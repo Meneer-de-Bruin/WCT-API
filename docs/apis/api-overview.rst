@@ -36,6 +36,13 @@ Group
    api-groups_GET.rst
    api-group_states_GET.rst
 
+Harvest Agencies
+================
+.. toctree::
+   :maxdepth: 1
+   
+   api-harvest-agencies_GET.rst
+   
 Harvest Authorisations
 ======================
 .. toctree::
