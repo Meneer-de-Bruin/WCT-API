@@ -1,5 +1,5 @@
-Retrieve Agencies (GET)
-=======================
+Retrieve Harvest Agencies (GET)
+===============================
 
 Returns a list of all the harvest agencies.
 
@@ -29,7 +29,7 @@ Response
 harvest-agencies List Optional
 ================ ==== ========
 
-| **agencies**
+| **harvest agencies**
 | This is a list of found harvest agencies.
  
 The following information is returned per found harvest agency:
