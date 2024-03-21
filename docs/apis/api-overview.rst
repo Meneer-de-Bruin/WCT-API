@@ -81,6 +81,7 @@ Target Instances
    api-target_instance_GET
    api-target_instance_PUT
    api-target_instance_PUT_abort
+   api-target_instance_PUT_patch-harvest
    api-target_instance_PUT_pause
    api-target_instance_PUT_start
    api-target_instance_PUT_stop
