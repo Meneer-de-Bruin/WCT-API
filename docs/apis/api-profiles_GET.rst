@@ -1,5 +1,5 @@
 Retrieve Profiles (GET)
-============================
+=======================
 
 Returns all profiles with a subset of the available information based upon given filter.
 
@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/profiles <https://wct-api.readthedocs.io/en/latest/apis/api-profiles_GET.html>`_
+``https://--WCT_base--/api/v1/profiles``
 
 Header
 ------

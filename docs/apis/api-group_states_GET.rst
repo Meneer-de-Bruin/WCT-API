@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/groups/states <https://wct-api.readthedocs.io/en/latest/apis/api-group_states_GET.html>`_
+``https://--WCT_base--/api/v1/groups/states``
 
 Header
 ------

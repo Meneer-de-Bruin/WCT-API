@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/harvest-authorisations/states <https://wct-api.readthedocs.io/en/latest/apis/api-harvest_authorisation_states_GET.html>`_
+``https://--WCT_base--/api/v1/harvest-authorisations/states``
 
 Header
 ------

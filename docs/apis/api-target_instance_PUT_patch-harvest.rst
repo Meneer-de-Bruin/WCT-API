@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/patch-harvest <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_PUT_patch-harvest.html>`_
+``https://--WCT_base--/api/v1/target-instances/{target-instance-id}/patch-harvest``
 
 Header
 ------

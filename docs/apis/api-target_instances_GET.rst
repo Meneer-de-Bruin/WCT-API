@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target-instances <https://wct-api.readthedocs.io/en/latest/apis/api-target_instances_GET.html>`_
+``https://--WCT_base--/api/v1/target-instances``
 
 Header
 ------

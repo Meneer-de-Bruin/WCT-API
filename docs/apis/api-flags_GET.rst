@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/flags <https://wct-api.readthedocs.io/en/latest/apis/api-flags_GET.html>`_
+``https://--WCT_base--/api/v1/flags``
 
 Header
 ------

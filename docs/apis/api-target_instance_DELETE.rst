@@ -8,7 +8,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/target_instances/{target_instance-id} <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_DELETE.html>`_
+``https://--WCT_base--/api/v1/target_instances/{target_instance-id}``
 
 Header
 ------

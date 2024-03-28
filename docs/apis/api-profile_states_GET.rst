@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/profiles/states <https://wct-api.readthedocs.io/en/latest/apis/api-profile_states_GET.html>`_
+``https://--WCT_base--/api/v1/profiles/states``
 
 Header
 ------

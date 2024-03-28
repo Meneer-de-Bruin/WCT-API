@@ -8,10 +8,10 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/targets/{target-id}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
+``https://--WCT_base--/api/v1/targets/{target-id}``
 
 Also the following parts can be retrieved separately by adding the part name to the request query, e.g.
-`https://--WCT_base--/api/v1/target/{target-id}/{part}  <https://wct-api.readthedocs.io/en/latest/apis/api-target_GET.html>`_
+``https://--WCT_base--/api/v1/target/{target-id}/{part}``
 
 +-------------+
 | **part**    |

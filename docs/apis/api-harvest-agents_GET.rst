@@ -9,7 +9,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/api/v1/harvest-agents <https://wct-api.readthedocs.io/en/latest/apis/api-harvest-agents_GET.html>`_
+``https://--WCT_base--/api/v1/harvest-agents``
 
 Header
 ------

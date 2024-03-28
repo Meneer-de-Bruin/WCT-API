@@ -10,7 +10,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/auth/v1/token/{token} <https://wct-api.readthedocs.io/en/latest/apis/api-authentication_DELETE.html>`_
+``https://--WCT_base--/auth/v1/token/{token}``
 
 .. include:: descriptions/desc-token.rst
 

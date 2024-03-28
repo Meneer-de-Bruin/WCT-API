@@ -15,7 +15,7 @@ Version
 
 Request
 -------
-`https://--WCT_base--/auth/v1/token <https://wct-api.readthedocs.io/en/latest/apis/api-authentication_POST.html>`_
+``https://--WCT_base--/auth/v1/token``
 
 Header
 ------
