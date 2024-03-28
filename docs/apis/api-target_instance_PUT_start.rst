@@ -8,10 +8,9 @@ Version
 
 Request
 -------
-:ref:`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/start<Start Target Instance (PUT)>`_
+https://--WCT_base--/api/v1/target-instances/<target-instance-id>/start
 
 
-https://--WCT_base--/api/v1/target-instances/{target-instance-id}/start
 
 Header
 ------
