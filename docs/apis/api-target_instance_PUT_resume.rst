@@ -1,6 +1,6 @@
-Start Target Instance (PUT)
+Resume Target Instance (PUT)
 ===========================
-Start harvest of a target instance immediately.
+Resume harvest of a target instance immediately.
 
 Version
 -------
@@ -8,10 +8,7 @@ Version
 
 Request
 -------
-:ref:`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/start<Start Target Instance (PUT)>`_
-
-
-https://--WCT_base--/api/v1/target-instances/{target-instance-id}/start
+`https://--WCT_base--/api/v1/target-instances/{target-instance-id}/resume <https://wct-api.readthedocs.io/en/latest/apis/api-target_instance_PUT_resume.html>`_
 
 Header
 ------
@@ -19,17 +16,7 @@ Header
 
 Body
 ----
-
-================ ====== ========
-**Body**
---------------------------------
-harvestAgentName String Required
-================ ====== ========
-
-| **harvestAgentName**
-| Name of valid harvest agent as defined in application.properties.
-
-The list of possible harvest agent name values can be retrieved with API :doc:`api-harvest-agencies_GET`.
+.. include:: descriptions/desc-request-body-empty.rst
 
 Response
 --------
@@ -51,5 +38,5 @@ Example
 
   <TODO>
   curl \
-  --location 'http://localhost/wct/api/v1/target-instances/<target-instance-id>/harvest_now' \
+  --location 'http://localhost/wct/api/v1/target-instances/<target-instance-id>/resume' \
   --header 'Authorization: Bearer <token>'
