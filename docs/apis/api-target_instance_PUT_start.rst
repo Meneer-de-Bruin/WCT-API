@@ -8,9 +8,7 @@ Version
 
 Request
 -------
-https://--WCT_base--/api/v1/target-instances/<target-instance-id>/start
-
-
+``https://--WCT_base--/api/v1/target-instances/{target-instance-id}/start``
 
 Header
 ------
